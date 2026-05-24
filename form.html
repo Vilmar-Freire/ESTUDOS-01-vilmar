@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Formulário de contato para o site de um restaurante.">
+  <meta name="keywords" content="formulário, contato, restaurante, feedback"> 
+  <meta name="author" content="Seu Nome"> 
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <title>Aula-de-formulários</title> 
+</head>
+<body>
+  <h1>Formulário de Contato</h1>
+
+  <form action="/enviar" method="post">
+
+    <div>
+    <label for="nome">Nome
+      <input type="text" id="nome" name="nome" required="#" value="Vilmar Freire" />
+    </label>
+
+    <label for="email">Email
+      <input type="email" id="email" name="email" required />
+    </label>
+
+    <label for="mensagem">Mensagem
+      <textare id="mensagem" name="mensagem" required />
+    </label>
+
+    <button type="submit">Enviar
+    <label>
+      <input type="radio" name="preco" value="R$150"> R$150
+    </label>
+
+    <label>
+      <input type="radio" name="preco" value="R$200"> R$200
+    </label>
+
+    <label>
+      <input type="radio" name="preco" value="R$250"> R$250
+    </label>
+
+    <label>
+      <input type="radio" name="preco" value="R$300"> R$300
+    </label>
+
+    <label>
+      <input type="radio" name="preco" value="R$350"> R$350
+    </label>
+    </div>
+  </form>
+
+  <div>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="150"> <R1>R$150,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="200"> <R1>R$200,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="250"> <R1>R$250,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="300"> <R1>R$300,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="350"> <R1>R$350,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="400"> <R1>R$400,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="450"> <R1>R$450,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="500"> <R1>R$500,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="550"> <R1>R$550,00</R1>
+      <input type="checkbox" id="newsletter" name="varios-preços" value="600"> <R1>R$600,00</R1>
+</div>
+
+    <button>Enviar formulário</button>
+    </form>
+</body>
+</html>
+
+<!--
+                                                              FORMULÁRIOS
+- Os formulários são usados para coletar informações dos usuários, como nome, email, mensagem, etc.
+- O elemento principal para criar um formulário é a tag <form>.
+- Dentro do formulário, podemos usar diversos tipos de campos de entrada, como <input>, <textarea>, <select>, etc.
+- O atributo "action" do formulário define para onde os dados serão enviados quando o formulário for submetido.
+- O atributo "method" define o método HTTP a ser usado (GET ou POST).   
+
+Usado para enviar informações para uma determinada funcionalidade do sistema.
+Com eles temos várias possibilidades de comunicação.
+
+Usado para enviar informações para uma determinada funcionalidade do sistema.
+Com eles temos várias possibilidades de comunicação. 
+
+Podemos enviar informações para o backend, para o frontend, ou para ambos.
+Como para o local storage, ou para o session storage, ou para o banco de dados, ou para uma API, ou para um arquivo, ou para um email, ou para um chat, ou para um formulário de contato, ou para um formulário de feedback, ou para um formulário de inscrição, ou para um formulário de login, ou para um formulário de cadastro, ou para um formulário de pesquisa, ou para um formulário de comentário, ou para um formulário de avaliação, ou para um formulário de sugestão, ou para um formulário de reclamação, ou para um formulário de denúncia, ou para um formulário de suporte, ou para um formulário de atendimento, ou para um formulário de agendamento, ou para um formulário de reserva, ou para um formulário de compra, ou para um formulário de venda, ou para um formulário de doação, ou para um formulário de voluntariado, ou para um formulário de parceria, ou para um formulário de patrocínio, ou para um formulário de colaboração, ou para um formulário de participação.
+
+O formulário é representado pela tag <form>, que é o elemento principal para criar um formulário.
+Dentro do formulário, podemos usar diversos tipos de campos de entrada, como <input>, <textarea>, <select>, etc.
+O atributo "action" do formulário define para onde os dados serão enviados quando o formulário for submetido.
+O atributo "method" define o método HTTP a ser usado (GET ou POST). 
+
+Representada pela tag <form></form>
+Nunca usamos apenas a tag <form>, ela deve conter outros elementos dentro dela, como campos de entrada, botões, etc.
+
+Junto com a tag <form></form> temos também as outras tags que são:
+- <input>: usada para criar campos de entrada de texto, senha, email, etc.
+- <textarea>: usada para criar campos de entrada de texto multilinha.
+- <select>: usada para criar campos de seleção.  
+- <button>: usada para criar botões de envio, reset, etc.
+- <label>: usada para criar rótulos para os campos de entrada.
+- <fieldset>: usada para agrupar campos de entrada relacionados.
+- <legend>: usada para criar um título para o grupo de campos de entrada.
+- <datalist>: usada para criar uma lista de opções para um campo de entrada.
+- <optgroup>: usada para agrupar opções dentro de um campo de seleção.
+- <option>: usada para criar opções dentro de um campo de seleção.
+- <output>: usada para exibir o resultado de um cálculo ou de uma ação do usuário.
+- <progress>: usada para exibir o progresso de uma tarefa.
+- <meter>: usada para exibir uma medida dentro de um intervalo.
+- <input type="text">: usada para criar um campo de entrada de texto.
+- <input type="password">: usada para criar um campo de entrada de senha.
+- <input type="email">: usada para criar um campo de entrada de email.
+- <input type="number">: usada para criar um campo de entrada de número.
+- <input type="date">: usada para criar um campo de entrada de data.
+- <input type="time">: usada para criar um campo de entrada de hora.
+- <input type="checkbox">: usada para criar um campo de entrada de checkbox.
+- <input type="radio">: usada para criar um campo de entrada de rádio.
+- <input type="submit">: usada para criar um botão de envio.
+- <input type="reset">: usada para criar um botão de reset. 
+
+Forma de uso
+<form> com tipo de envio e destino dos dados
+      <label for="nome">Nome:</label> Título
+      <input type="text" id="nome" name="nome" required> Campo de entrada de texto
+      <label for="email">Email:</label> Título
+      <input type="email" id="email" name="email" required> Campo de entrada de email
+      <label for="mensagem">Mensagem:</label> Título
+      <textarea id="mensagem" name="mensagem" required></textarea> Campo de entrada de texto multilinha
+      <button type="submit">Enviar</button> Botão de envio
+</form> formulário com tipo de envio e destino dos dados.
+-->
