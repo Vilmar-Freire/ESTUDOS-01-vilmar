@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estou aprendendo bem">
+  <meta name="keywords" content="programação, html, css, JavaScript">
+  <meta name="author" content="Vilmar Freire">
+  <link rel="stylesheet" href="style.css">
+  <title>Aulas-de-tabelas</title>
+</head>
+<body>
+      <table border="1">
+        <thead>
+            <tr>
+                 <th>Nome</th>
+                 <th>Idade</th>
+                 <th>Cidade</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                 <td>Vilmar</td>
+                 <td>63</td>
+                 <td>Araruna-pr</td>
+            </tr>
+            <tr>
+                 <td>Paulo</td>
+                 <td>22</td>
+                 <td>Araruna-pr</td>
+            </tr>
+            <tr>
+                 <td>Jair</td>
+                 <td>63</td>
+                 <td>Araruna-pr</td>
+            </tr>
+            <tr> 
+                 <td>Vilmar</td>
+                 <td>63</td>
+                 <td>Araruna-pr</td>
+            </tr>
+            <tr>
+                 <td>Paulo</td>
+                 <td>22</td>
+                 <td>Araruna-pr</td>
+            </tr>
+            <tr>
+                 <td>Jair</td>
+                 <td>63</td>
+                 <td>Araruna-pr</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                 <th>Primeiro</th>
+                 <th>Segundo</th>
+                 <th>Terceiro</th>
+            </tr>
+        </tfoot>
+      </table>
+
+</body>
+</html>
+
+<!--TABELAS  
+Quando devemos usar tabelas? Usamos quando se tem um conjunto de dados e precisa ser apresentados ordenadamente. É representada pela Tag <table></table>. Nunca usamos apenas a tag <table></table>, junto a elas temos outras tags como: 
+    <table> => Representa a tabela
+        <tr></tr> => Representa uma linha da tabela  =>Representa uma linha da coluna
+        <th></th> => Representa um cabeçalho da tabela => Representa o título da coluna
+        <td></td> => Representa uma célula de dados da tabela  => Representa o conteúdo da coluna => e   Representa o conteúdo da linha da coluna
+        <tr></tr> -> Representa uma linha da tabela => Representa uma linha da coluna
+    </table> => Representa a tabela
+
+DICAS DE OURO SOBRE TABELAS
+Uma tabela tem mais atributos, eles são:
+    <thead> => Representa o cabeçalho da tabela =>separa o cabeçario da tabela do corpo da tabela.
+    </thead>
+
+    <tbody> => Representa o corpo da tabela => separamos o corpo da tabela do rodapé da tabela.
+    </tbody>
+
+    <tfoot> => Representa o rodapé da tabela => separamos o rodapé da tabela do corpo da tabela.
+    </tfoot>
+    
+Vamos ver o resultado de uma tabela na prática:
+
+                              ID E CLASS
+As tabelas tem os mesmos atributos de ID e CLASS, ou seja, podemos usar o ID para identificar uma tabela e o CLASS para identificar um grupo de tabelas.
+
+Id e Class são atributos globais, ou seja, podem ser usados em qualquer elemento HTML.
+
+Id e Class tem a mesma função, ou seja, identificar um elemento HTML, a diferença é que o Id é usado para identificar um elemento HTML específico, ou seja, um elemento HTML único, já o Class é usado para identificar um grupo de elementos HTML, ou seja, vários elementos HTML.
+
+Id e Class são usados para estilizar uma tabela, ou seja, para aplicar estilos CSS em uma tabela, usando o ID ou o CLASS da tabela.
+
+Id e Class são usados para manipular uma tabela usando JavaScript, ou seja, para aplicar funcionalidades em uma tabela, usando o ID ou o CLASS da tabela.
+
+Id e Class são uma forma de identificar elementos em seu html.
+
+É muito importante saber usá-los pois são muito utilizados em todos os códigos por aí na internet.
+
+Vamos utilizá-los com css ou javascript, para isso precisamos colocar o ID ou o CLASS na tag da tabela, por exemplo:   
+    <table id="tabela1">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Vilmar</td>
+            <td>63</td>
+            <td>Araruna-pr</td>
+        </tr>
+    </table>
+
+    <table class="tabela2">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>22</td>
+            <td>Araruna-pr</td>
+        </tr>
+    </table>
+    Mas  tudo depende de minha utilizações.
+
+    Lembra dos elementos que aprendemos nas outras aulas?
+
+    Neles conseguimos usar os seletores (id ou class), cada um deles tem uma determinada importância na sintaxe de nosso código. Cada id tem um nome próprio por página, isso mesmo, apenas 1 nome de id por página, já o class pode ser usado quantas vezes quiser, ou seja, vários elementos HTML podem ter o mesmo nome de class.
+
+    Se em uma página tiver mais de um elemento HTML com o mesmo nome de id, isso é um erro, pois o id é usado para identificar um elemento HTML específico, ou seja, um elemento HTML único, já o class é usado para identificar um grupo de elementos HTML, ou seja, vários elementos HTML. Se em sua página tiver mais de 1 id com nome igual está incorreto. É importante lembrar disso, pois pode causar problemas em seu código, principalmente quando for usar o id para estilizar ou manipular um elemento HTML usando CSS ou JavaScript.
+
+    É como se fossem impressões digitais de nossos dedos ou RG de nossas cores, cada um tem um nome único, ou seja, cada um tem uma impressão digital única, ou seja, cada um tem um RG único, ou seja, cada um tem um nome de id único. Já o class é como se fosse uma roupa, ou seja, várias pessoas podem usar a mesma roupa, ou seja, vários elementos HTML podem ter o mesmo nome de class.
+
+    Alguns exemplos de id e class em tabelas:
+    <table id="tabela1">< /table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Vilmar</td>
+            <td>63</td>
+            <td>Araruna-pr</td>
+        </tr>
+
+PÁGINA ERRADA
+
+        <h1 id="meu-primeiro-id">Conteúdo</h1>
+        <h2 id="meu-primeiro-id">Conteúdo</h2>
+
+PÁGINA CORRETA
+
+        <h1 id="meu-primeiro-id">Conteúdo</h1>
+        <h2 id="meu-segundo-id">Conteúdo</h2>
+
+    <table class="tabela2">< /table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>22</td>
+            <td>Araruna-pr</td>
+        </tr>
+Pode ser inserido qualquer nome neles.
+
+    <table id="tabela1">< /table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Vilmar</td>
+            <td>63</td>
+            <td>Araruna-pr</td>
+        </tr>
+
+    <table class="tabela2">< /table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>22</td>
+            <td>Araruna-pr</td>
+        </tr>
+
+     Já com o class conseguimos utilizar mais de 1x por página.
+
+     Identificamos um grupo de elementos, reaproveitando o código deixando mais ágil nosso desenvolvimento.
+
+     Exemplos de como podemos estar utilizando o class em nossas tabelas:
+     <table class="tabela2">< /table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>22</td>
+            <td>Araruna-pr</td>
+        </tr>
+        <table class="tabela2">< /table>
+
+        <h1 class="minha-classe ">Conteúdo</h1>
+        <h2 class="minha-classe ">Conteúdo</h2>
+
+        <UL class="minha-classe ">
+            <LI>Item 1</LI>
+            <LI>Item 2</LI>
+            <LI>Item 3</LI>
+            </UL>
+
+         <UL>
+            <LI class="minha-classe ">Item 1</LI>
+            <LI class="minha-classe ">Item 2</LI>
+            <LI class="minha-classe ">Item 3</LI>
+         </UL>
+
+Isso mesmo podemos usar em várias Tags, ou seja, em vários elementos HTML, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML.
+
+Também podemos utilizar usando <a href="#tabela1">Tabela 1</a> para acessar a tabela 1, ou seja, para acessar o elemento HTML com o id tabela1, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML.
+
+<a href="#tabela2">Tabela 2</a> para acessar a tabela 2, ou seja, para acessar o elemento HTML com o class tabela2, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML, isso é muito importante para agilizar nosso desenvolvimento, pois podemos estar usando o mesmo nome de class para vários elementos HTML, ou seja, para um grupo de elementos HTML.
+
+<a href="" class="minha-classe">conteúdo</a>
+
+Cuidado para não utilizá-lo de uma forma errada.
+
+Dependendo de minha utilização, posso usar o id ou o class, ou seja, posso usar o id para identificar um elemento HTML específico, ou seja, um elemento HTML único, ou seja, posso usar o class para identificar um grupo de elementos HTML, ou seja, vários elementos HTML.
+
+Dependendo de como for usado podemos gerar códigos desnecessários poluindo e dificultando a manutenção do nosso código.
+
+     -->
