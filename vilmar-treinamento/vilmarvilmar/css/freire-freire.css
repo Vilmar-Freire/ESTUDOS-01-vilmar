@@ -1,0 +1,28 @@
+body{
+    background: green;  /*cor de fundo*/
+}
+
+p{
+    text-align: justify;  /*alinhamento do texto.*/
+    line-height: 1.6;  /*espaçamento entre linhas.*/
+    margin-bottom: 20px;  /*espaçamento inferior entre parágrafos.*/
+    font-size: 14px;  /*Tamanho da fonte.*/
+    color:blue;  /*cor do texto.*/
+    font-family: serif;  /*tipo de fonte.*/
+
+}
+
+article{
+    background: white;  /*cor de fundo do artigo.*/
+    padding: 20px;  /*espaçamento interno do artigo.*/
+    border-radius: 5px;  /*bordas arredondadas do artigo.*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /*sombra para dar profundidade ao artigo.*/
+}
+
+section{
+    margin-bottom: 20px;  /*espaçamento inferior entre seções.*/
+}
+
+div{
+    margin-bottom: 10px;  /*espaçamento inferior entre divs.*/
+}
