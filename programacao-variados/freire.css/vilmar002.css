@@ -1,11 +1,35 @@
 h1{
     color: darkmagenta;
      background-color: indianred; /* Cor de fundo */
-            color: #FFF; /* Cor do texto */
-            font-weight: bold; /* Texto em negrito */
-            padding: 10px; /* Espaçamento interno */
-            border: 1px solid #ccc; /* Borda */
-            margin: 10px; /* Espaçamento externo */
+            color: #FFF;  /* Cor do texto */
+            font-weight: bold;  /* Texto em negrito */
+            padding: 10px;  /* Espaçamento interno */
+            border: 1px solid #ccc;  /* Borda */
+            margin: 10px;  /* Espaçamento externo */
     
 }
+
+h2{
+    background-color: chocolate;
+    font-weight: 12;
+     color: #FFF;  /* Cor do texto */
+            font-weight: bold;  /* Texto em negrito */
+            padding: 10px;  /* Espaçamento interno */
+            border: 10px solid #490303;  /* Borda */
+            margin: 00px;  /* Espaçamento externo */
+}
+
+h3{
+    background-color: rgb(223, 171, 134);
+    font-weight: 12;
+     color: #FFF;  /* Cor do texto */
+            font-weight: bold;  /* Texto em negrito */
+            padding: 10px;  /* Espaçamento interno */
+            border: 4px solid #87d132;  /* Borda */
+            margin: 1px;  /* Espaçamento externo */
+}
+
+
+
+
 
