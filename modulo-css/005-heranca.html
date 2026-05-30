@@ -12,14 +12,14 @@
   <meta name="revised" content="2024-06-01">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/005-heranca.css">
-</head>
-  <title>Herança no CSS</title>
-</head>
-
+  </head>
+      <title>Herança no CSS</title>
+  </head>
 <body>
-   <article>
-      Deu bronca nos filhos.
-
+  <h1>Herança no CSS</h1>
+   
+  <article>
+              Deu bronca nos filhos.
     <section>
        <P>
           Filha
@@ -35,8 +35,86 @@
       </p>
     </section>
   </article>
+
+  <hr size="10px" color="blue">
+
+    <form action="/enviar" method="post">
+
+      <h2 class="form-title">Formulário de contato</h2>
+
+      <div>
+        
+        <label form="nome"> Nome
+          <input type="text" id="nome" name="nome" required>
+        </label><br><br>
+      </div>
+    </form>
+
+    <label form="email"> Email
+      <input type="email" id="email" name="email" required>
+      </label><br><br>
+
+      <label form="telefone"> Telefone
+        <input type="tel" id="telefone" name="telefone" required>
+      </label><br><br>
+
+      <label form="Pais"> País
+        <input type="text" id="Pais" name="Pais" required>
+      </label><br><br>
+
+      <label form="Cidade"> Cidade
+        <input type="text" id="Cidade" name="Cidade" required>
+      </label><br><br>
+
+    <label form="Estado"> Estado
+      <input type="text" id="Estado" name="Estado" required>
+
+
+      <label form="Endereco"> Endereço
+        <input type="text" id="Endereco" name="Endereco" required>
+      </label><br><br>
+
+      <div>
+          <label form="assunto"> Assunto
+            <input type="text" id="assunto" name="assunto" required>
+      </div><br>
+
+          <label form="mensagem"> Mensagem
+            <textarea id="mensagem" name="mensagem" required> </textarea>
+            </label>
+
+            <label form="enviar">
+              <input type="submit" id="enviar" name="enviar" value="Enviar">
+            </label>
+
+  <hr size="10px" color="blue">
+
+  <h2 class="exem">Exemplos com CSS</h2>
+
+  <div class="caixa"> 
+    <h3>Produto</h3>
+    <p>Descrição do produto.</p>
+  </div> 
+
+    <h3 class="exemplos">Exemplos com varias divs.</h3>
+
+    <div  id="cabecalho">
+       <h3  class="site">Meu Site</h3>
+    </div>
+
+    <div id="conteudo">
+           <p class="conteudo">Bem-vindo ao meu site!</p>
+    </div>
+    <div id="conteudo">
+           <p  class="conteudo">Este é um exemplo de conteúdo.</p>
+    </div>
+
+<hr size="10px" color="blue">
 </body>
 </html>
+
+
+
 
 <!--- Herança no CSS -
 Em uma família de elementos, as propriedades CSS podem ser herdadas de um elemento pai para seus filhos. Isso significa que se você definir uma propriedade em um elemento, todos os seus descendentes herdarão esse valor, a menos que seja sobrescrito. 

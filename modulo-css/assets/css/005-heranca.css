@@ -1,4 +1,71 @@
+body{
+    background: lightgray; /*Cor de fundo da página*/
+}
+
+h1 {
+    font-size: 36px; /*Tamanho da fonte do título principal*/
+    color: red; /*Cor do texto do título principal*/
+    margin-bottom: 20px; /*Espaçamento inferior do título principal*/
+}
+
 article {
     font-size: 30px;  /*Tamanho da fonte*/
     color: blue; /*Cor do texto*/
 }
+
+.form-title {
+    font-size: 24px; /*Tamanho da fonte do título do formulário*/
+    color: red; /*Cor do texto do título do formulário*/
+    margin-bottom: 20px; /*Espaçamento inferior do título do formulário*/
+}
+
+.exem{
+    font-size: 18px; /*Tamanho da fonte do exemplo*/
+    color: green; /*Cor do texto do exemplo*/
+    background-color: burlywood; /*Cor de fundo do exemplo*/
+    padding: 10px; /*Espaçamento interno do exemplo*/
+    width: 180px; /*Largura do exemplo*/
+}
+
+.caixa{
+    width: 200px; /*Largura da caixa*/
+    height: 100px; /*Altura da caixa*/
+    background-color: yellow; /*Cor de fundo da caixa*/
+    border: 2px solid black; /*Borda da caixa*/
+}
+
+.exemplos{
+    font-size: 18px; /*Tamanho da fonte dos exemplos*/
+    color: green; /*Cor do texto dos exemplos*/
+    background-color: burlywood; /*Cor de fundo dos exemplos*/
+    padding: 10px; /*Espaçamento interno dos exemplos*/
+    width: 210px; /*Largura dos exemplos*/
+}
+
+.exemplos{
+    font-size: 18px; /*Tamanho da fonte dos exemplos*/
+    color: green; /*Cor do texto dos exemplos*/
+    background-color: burlywood; /*Cor de fundo dos exemplos*/
+    padding: 10px; /*Espaçamento interno dos exemplos*/
+    width: 210px; /*Largura dos exemplos*/
+    border: 2px solid black; /*Borda dos exemplos*/
+}
+
+.site{
+    font-size: 18px; /*Tamanho da fonte do site*/
+    color: green; /*Cor do texto do site*/
+    background-color: burlywood; /*Cor de fundo do site*/
+    padding: 10px; /*Espaçamento interno do site*/
+    width: 210px; /*Largura do site*/
+    border: 2px solid black; /*Borda do site*/
+}   
+
+.conteudo{
+    font-size: 18px; /*Tamanho da fonte do conteúdo*/
+    color: green; /*Cor do texto do conteúdo*/
+    background-color: burlywood; /*Cor de fundo do conteúdo*/
+    padding: 10px; /*Espaçamento interno do conteúdo*/
+    width: 210px; /*Largura do conteúdo*/
+    border: 2px solid black; /*Borda do conteúdo*/
+}  
+
