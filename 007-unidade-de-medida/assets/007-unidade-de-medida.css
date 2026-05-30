@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+}
+
+/*
+  16px
+  2em =>32px
+  1rem => 18px, 2rem => 36px
+  50% => 8px , 200% =>32px
+*/
+
+html {
+   font-size: 22px;
+}
+
+div {
+   font-size:  16px;
+}
+
+P {
+   font-size:  200%;
+}
+
