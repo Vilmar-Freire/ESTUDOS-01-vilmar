@@ -11,12 +11,12 @@ div {
    margin: 150px 10px 30px 50px;  
 
    border-top: 10px  dotted bisque ;   /*dotted=>Define um contorno pontilhado*/
-   border-right: 20px  double sienna ; /*double=> Define um contorno duplo*/
+   border-right: 20px  double sienna ;  /*double=> Define um contorno duplo*/
    border-bottom: 30px  groove indianred ; /*groove- Define um contorno ranhurado em 3D*/
-   border-left: 40px  ridge seagreen ; /*ridge- Define um contorno rígido em 3D*/
+   border-left: 40px  ridge seagreen ;  /*ridge- Define um contorno rígido em 3D*/
 }
 
-/*   border-top: ==>     */
-/*   border-right: ==>   */ 
-/*   border bottom: ==>   */
-/*  border-left: ==>   */
+/*   border-top: ==> Borda superior     */
+/*   border-right: ==> Borda direita   */ 
+/*   border bottom: ==> Borda inferior   */
+/*  border-left: ==> Borda esquerda   */
