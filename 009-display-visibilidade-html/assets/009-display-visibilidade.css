@@ -1,0 +1,38 @@
+body{
+   background: cyan;
+}
+
+p{
+   color: red;
+}
+
+
+/*O que é o display aqui? Ele vai falar pra nossa div ou pra nossa tag você vai aparecer para as pessoas de uma determinada forma, eu quero que você seja um bloco 100% inteiro*/
+p.exp-1{
+   display: block;  
+}
+
+span{
+   display: block;
+}
+
+p.exp-2{
+   display: inline;
+}
+
+/*==================================================================*/
+
+p.exp-3{
+    display: inline-block;
+}
+
+p.exp-4{
+    display: none;
+}
+
+.aparecer:hover p.exp-4{
+    display: block;
+}
+p.exp-4{
+    display: none;
+}
