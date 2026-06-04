@@ -1,0 +1,12 @@
+body{
+  /*background: representa a cor de fundo da página.*/
+  
+  /*background: url("caminho/para/a/imagem.jpg")  */
+
+  height: 100vh;
+
+  background: url("https://image.shutterstock.com/image-photo/abstract-blue-squares-background-600w-114374386.jpg") no-repeat bottom center fixed;
+  
+  /*background-color: representa a cor de fundo da página, mas tem menor prioridade que   a   propriedade background.*/ 
+}
+
