@@ -3,10 +3,62 @@ body{
   
   /*background: url("caminho/para/a/imagem.jpg")  */
 
-  height: 100vh;
+  /*height: 100vh;*/
 
-  background: url("https://image.shutterstock.com/image-photo/abstract-blue-squares-background-600w-114374386.jpg") no-repeat bottom center fixed;
+  background: url("./image/pink-purple-dna-strands-on-600w-114374821.webp");
+  
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
   
   /*background-color: representa a cor de fundo da página, mas tem menor prioridade que   a   propriedade background.*/ 
 }
+
+/*Para ele não replicar usamos (no-repeat)esse background) neste caso ele só pegou a imagem sem se repetir*/
+
+/*background-attachment: fixed;  faz com que a imagem de fundo fique fixa, ou seja, ela não se move quando o usuário rola a página.*/  
+
+/*background-position: left bottom;  define a posição da imagem de fundo. Neste caso, a imagem será posicionada no canto inferior esquerdo da página.*/
+
+/*background-size: cover;  faz com que a imagem de fundo cubra toda a área disponível, ajustando-se proporcionalmente para preencher o espaço sem distorção.*/
+
+/*background: url("https://image.shutterstock.com/image-photo/abstract-blue-squares-background-600w-114374386.jpg") no-repeat left bottom fixed;  é uma forma abreviada de definir várias propriedades de background em uma única linha. Ela combina a definição da imagem de fundo, a repetição, a posição e o comportamento de fixação em um único comando.*/
+
+/*repeat-x temos o eixo x e o eixo y agara ele está repetindo só no eixo x Se eu colocar eixo y ele vai repetir só no eixo y */
+
+/*background: url("https://image.shutterstock.com/image-photo/abstract-blue-squares-background-600w-114374386.jpg") repeat-x left bottom fixed;  é uma forma abreviada de definir várias propriedades de background em uma única linha. Ela combina a definição da imagem de fundo, a repetição, a posição e o comportamento de fixação em um único comando.*/
+
+/*no-repeat: Center ele vai centralizar toda a minha imagens*/
+
+/*no-repeat: top center: Ele vai centralizar no topo da página */
+
+/*no-repeat: center center: Ele vai centralizar na horizontal e vertical */
+
+/*no-repeat: bottom center: Ele vai centralizar no fundo da página */
+
+/*no-repeat: top left: Ele vai posicionar no canto superior esquerdo */
+
+/*no-repeat: top right: Ele vai posicionar no canto superior direito */
+
+/*no-repeat: bottom left: Ele vai posicionar no canto inferior esquerdo */
+
+/*no-repeat: bottom right: Ele vai posicionar no canto inferior direito */
+
+/*background: url("https://image.shutterstock.com/image-photo/abstract-blue-squares-background-600w-114374386.jpg") no-repeat center center fixed;  é uma forma abreviada de definir várias propriedades de background em uma única linha. Ela combina a definição da imagem de fundo, a repetição, a posição e o comportamento de fixação em um único comando.*/
+
+/*height: 100vh; é uma medida nova eu só uso para deixar a altura do nosso body cem por cento, posso deixar left bottom.*/
+
+/*background-size: cover;  faz com que a imagem de fundo cubra toda a área disponível, ajustando-se proporcionalmente para preencher o espaço sem distorção.*/
+
+/*background-size: contain;  faz com que a imagem de fundo seja dimensionada para caber completamente dentro da área disponível, mantendo sua proporção.*/
+
+/*background-size:auto;  faz com que a imagem de fundo seja dimensionada para caber completamente dentro da área disponível, mantendo sua proporção.*/
+
+/*background-size: 100% 100%; ou 100px 100px faz com que a imagem de fundo seja dimensionada para preencher toda a área disponível, podendo distorcer a proporção.*/
+
+/*Cria uma pasta no html rais pode ser dentro da pasta (assets) com o nome image para funcionar tem duas maneira ./image/e o nome da imagem*/
+
+/*Também pode ser assim escrevendo o nome da pasta image/nome-da-imagem.jpg*/
+
 

@@ -1,0 +1,9 @@
+body{
+  background-image: linear-gradient(to left, pink, #ff0000, green, #0000ff, yellow);
+  background-size: 50% 300px; 
+}
+
+/*Para que serve linear-gradient?*/
+/*O linear-gradient é uma função CSS que permite criar gradientes de cor lineares. Ele é usado para definir uma transição suave entre duas ou mais cores ao longo de uma linha. No exemplo acima, o gradiente é aplicado como plano de fundo do corpo da página, criando uma transição de cores que vai do rosa ao vermelho, verde, azul e amarelo. O background-size é usado para controlar o tamanho do gradiente, neste caso, definindo-o para ocupar 50% da largura e 300px de altura.*/
+
+/**/
