@@ -1,0 +1,27 @@
+p{
+  text-align: center;  /*Posisionamento do texto que eu quero deixar*/
+  /*text-decoration: line-through;*/
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Se eu colocar text-align="center" vai para o centro da página*/
+/*Se eu colocar text-align="right" vai para o lado direito da página*/
+/*Se eu colocar text-align="left" vai para o lado esquerdo da página*/
+
+/*Para que serve o text-decoration? Ele pode receber alguns elementos que se chama: overline, olive, olivedrab*/
+
+/*text-decoration: overline= cria uma linha na parte de cima*/
+/*text-decoration: underline= cria uma linha na parte de baixo*/
+/*text-decoration: line-through= cria a linha no meio*/
+/*text-decoration: none; tira a linha */
+
+/*Text-transform: uppercase deixa tudo em maiuscula.*/
+/*Text-transform: capitalize deixa a primeira letra do texto todo em maiuscula*/
+
+/*letter-spacing trabalha entre os espaços das letras*/

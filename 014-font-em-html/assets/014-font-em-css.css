@@ -4,6 +4,13 @@ body{
 }
 
 p{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 55px;
+  font-family:  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing:auto;
+  font-weight:<weight>;
+  font-style:normal;
+  font-size:55px;
+  font-weight:900;
+  font-style:italic;
 }
+
+/*A partir disso conseguimos usar fontes personalisadas para utilizar entra no site do google selecione a fonte copia a fonte e insira dentro head e depois ele vai dar outro código onde eu vou pegar esse código e vou colar no css dentro da fonte-family para mim usar dentro do meu arquivo siga a base do google que ele está falando para mim. Dessa maneira eu vou estar conseguindo usar fontes personalizadas.*/

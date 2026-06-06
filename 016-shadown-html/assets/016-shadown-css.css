@@ -1,0 +1,30 @@
+body{
+  background-color: darkcyan;
+}
+
+div{
+  position: relative;
+  padding: 30px;
+  background: pink;
+  font-size: 22px;
+
+    transition: all 0.5s;
+
+    /*text-shadow: 2px 2px  5px rgba(0,  0,  0.2);
+    box-shadow: 0 10px 30px  rgba(0,  0,  0.15);*/
+}
+
+div:hover{
+    bottom: 1px;
+    /*top: 1px;*/
+    text-shadow: 2px 2px  5px rgba(0,  0,  0.2);
+    box-shadow: 0 10px 30px  rgba(0,  0,  0.15);
+}
+
+/*O que é shadown: shadown nada mais é que sombra em nossos elementos */
+
+/*No desenvolvimento web, o termo "shadow" geralmente se refere a propriedades de sombreamento em CSS, usadas para adicionar profundidade e realismo a textos e elementos, ou ao Shadow DOM, um recurso estrutural do HTML para encapsular componentes.  */
+
+/*1. Sombras Visuais (Efeitos CSS)As propriedades de sombra são essenciais para separar elementos do fundo, criar hierarquia visual e destacar botões ou cartões (cards). Existem três tipos principais:box-shadowAdiciona sombra ao redor da caixa ou dos limites de um elemento (como divs, imagens ou botões).Sintaxe: box-shadow: offset-x offset-y blur spread color;Exemplo de uso:.card { box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2); }*/
+
+/*text-shadowAdiciona sombra diretamente aos caracteres do texto, útil para títulos chamativos ou legibilidade sobre fundos complexos.Sintaxe: text-shadow: offset-x offset-y blur color;Exemplo de uso:h1 { text-shadow: 2px 2px 4px #000; }filter: drop-shadow()Semelhante ao box-shadow, mas é aplicado ao contorno real do elemento. É ideal para imagens com transparência (PNGs ou SVGs) ou formas irregulares.Exemplo de uso:.imagem-recortada { filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5)); }Para uma explicação prática e visual de como ajustar o desfoque, a distância e a cor para criar designs modernos:*/

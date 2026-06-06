@@ -1,0 +1,36 @@
+body{
+   background: red;
+   color: white;
+   font-size: 30px;
+}
+
+p{
+   display: none;
+}
+
+@media (max-width: 500px){
+        body{
+            background: royalblue;
+        }
+}    
+@media (max-width: 320px) {
+       body{
+          font-size: 50px;
+          background: purple;
+       }
+
+       p{
+        display: block;
+       }
+
+}
+
+/*É desta maneira que trabalhamos com reposonsive*/
+/*A responsividade é a capacidade de uma página web se ajustar automaticamente a qualquer tamanho de tela e dispositivo (celulares, tablets, notebooks e TVs). Em conjunto com o CSS, o HTML garante que textos, imagens e menus fiquem proporcionais, evitando a necessidade de dar zoom ou rolar a tela para os lados.*/
+
+/*Por que a responsividade é indispensável?Melhor Experiência do Usuário: A navegação torna-se fluida e confortável, independentemente do aparelho utilizado para acessar o site.Posicionamento no Google: Mecanismos de busca priorizam a usabilidade mobile. Ter um site responsivo ajuda no rankeamento orgânico (SEO).Manutenção Unificada: Em vez de criar um site diferente para cada tipo de aparelho, você usa o mesmo código HTML para todos, economizando tempo e trabalho.*/
+
+/*Como a mágica aconteceO esqueleto da página é feito no HTML, mas o comportamento responsivo é estilizado utilizando CSS. Os três principais pilares técnicos incluem:Unidades Relativas: Em vez de definir tamanhos fixos (como pixels), usam-se porcentagens para que os elementos cresçam ou diminuam proporcionalmente.Imagens Flexíveis: Configurações que limitam o tamanho máximo das mídias para que não estourem o layout.Media Queries: Regras CSS que aplicam novos estilos dependendo da largura, resolução ou orientação do dispositivo.Para aprofundar os estudos e ver técnicas na prática, recomendo os seguintes conteúdos:*/
+
+
+
