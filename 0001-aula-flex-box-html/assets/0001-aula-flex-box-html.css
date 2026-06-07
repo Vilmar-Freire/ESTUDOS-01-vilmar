@@ -2,4 +2,313 @@ body{
   background:  palegoldenrod;
 }
 
+.container{
+      width: 450px;
+      height: 450px;
+      border: 2px solid red;
+      
+      display: flex;
 
+}
+
+.box{
+     background-color: aqua;
+     border: 1px  solid green;
+     width: 60px;
+     height: 60px;
+     flex-basis: 60px;
+
+     flex: 1;
+}
+
+#item1{
+     order: 2;
+}
+
+#item2{
+     order: 3;
+}
+
+#item3{
+     order:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#item1{
+     flex-grow: 1;     /*Aumenta o tamanho
+}*/
+
+
+/*#item2{
+  flex-grow: 2;*/
+
+
+
+/*==============================================================*/
+/*Essa sintaxe é a definição formal da propriedade CSS flex.*/
+
+/*Sintaxe formal
+flex: none | [ <flex-grow> <flex-shrink>? || <flex-basis> ]
+Significado dos componentes
+flex-grow: fator de crescimento do item.
+flex-shrink: fator de redução do item (opcional).
+flex-basis: tamanho inicial do item.
+/*Exemplos*/
+
+/*Apenas flex-grow
+.item {
+  flex: 1;
+}*/
+
+/*Equivale aproximadamente a:*/
+
+/*.item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}*/
+
+/*flex-grow e flex-shrink
+.item {
+  flex: 2 1;
+}*/
+
+/*cresce 2 vezes mais que itens com flex-grow: 1
+pode encolher (flex-shrink: 1)
+flex-grow, flex-shrink e flex-basis
+.item {
+  flex: 1 1 200px;
+}*/
+
+/*cresce quando há espaço livre
+encolhe quando necessário
+começa com largura base de 200px
+Apenas flex-basis*/
+
+/*.item {
+  flex: 300px;
+}*/
+
+/*Interpretação:*/
+
+/*.item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+}*/
+
+/*Valor especial none
+.item {
+  flex: none;
+}*/
+
+/*Equivale a:*/
+
+/*.item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}*/
+
+
+
+
+
+
+
+/*Flexibilidade de crescimento
+Controle o crescimento do flex-item (além do conteúdo) para ocupar o espaço restante do flex container.
+
+flex-grow: 0 (padrão)
+Itens flex não crescem para ocupar o espaço restante do flex container. Sendo o limitador do menor tamanho flexível de um item flexível ou seu tamanho/conteúdo ou uma base flexível definida.
+
+Todos com flex-grow: 0;
+flex-grow: número (ex: 1, 2, 3…)
+O item flex cresce (além de seu conteúdo) para ocupar o espaço restante do flex container, números maiores que 1 são usados ​​para distribuir o crescimento proporcionalmente entre os itens flex. Por exemplo, um item flex com flex-grow: 2; cresce o dobro do que um com flex-grow: 1;
+
+Flex-shrink
+Controle a redução do item flexível quando necessário para exibir todos os itens flex sem estourar o flex container
+
+flex-encolhimento: 1; (padrão)
+O item flex se reduz para encaixar no flex container.
+
+flex-shrink: 1; e flex-grow: 1;
+flex-shrink: 0
+Elemento flex não reduzirá seu tamanho, sendo o tamanho mínimo o flex-basis (quando definido) ou o tamanho do item (width definido ou conteúdo)
+
+flex-shrink: 0; e flex-grow: 1;
+flex-shrink: número > 1 (ex.: 2, 3, 4…)
+São usados ​​para distribuir a quantidade de redução proporcionalmente entre os itens flex. Por exemplo, um item flex com flex-shrink: 5; reduz 5 vezes mais do que um com flex-shrink: 1;
+Pressione Enter ou clique para ver a imagem em tamanho real.
+
+Antes da redução
+
+Depois da redução*/
+
+
+/*São aplicadas direta e individualmente aos itens flexíveis e controlam suas propriedades flexíveis.
+
+tímpanos:
+
+Item Flex
+Elemento filho de um container flex (display: flex)
+Tamanho do Item Flex
+Valor flexível dado ao item flex dentro do container flex
+Tamanho do Item (normal)
+Valor definido para o item, usando largura ou preenchimento, por exemplo
+Resumindo as coisas, pode-se entender que:
+
+Flex-basis = “tamanho ideal”/base que um item flex deve ter
+
+Flex-grow = “tamanho máximo” que um item flex deve alcançar
+
+Flex-shrink = “tamanho mínimo” que um item flex pode ficar*/
+
+
+/*Exemplos
+Permitir que os itens cresçam
+Utilize esta opção grow para permitir que um item flexível cresça e preencha qualquer espaço disponível:
+
+01
+02
+03
+<div class="flex ...">
+  <div class="size-14 flex-none ...">01</div>
+  <div class="size-14 grow ...">02</div>
+  <div class="size-14 flex-none ...">03</div>
+</div>
+
+Cultivo de itens com base no fator
+Utilize utilitários como este para fazer com que os itens flexíveis cresçam proporcionalmente com base em seu fator de crescimento, permitindo que preencham o espaço disponível em relação uns aos outros:grow-<number>grow-3
+
+01
+02
+03
+<div class="flex ...">
+  <div class="size-14 grow-3 ...">01</div>
+  <div class="size-14 grow-7 ...">02</div>
+  <div class="size-14 grow-3 ...">03</div>
+</div>
+Impedir o crescimento de itens
+Utilize grow-0para impedir que um item flexível cresça:
+
+01
+02
+03
+<div class="flex ...">
+  <div class="size-14 grow ...">01</div>
+  <div class="size-14 grow-0 ...">02</div>
+  <div class="size-14 grow ...">03</div>
+</div>
+Utilizando um valor personalizado
+Utilize a sintaxe para definir o fator de crescimento flexível com base em um valor totalmente personalizado: grow-[<value>]
+
+<div class="grow-[25vw] ...">
+  <!-- ... -->
+</div>
+Para variáveis ​​CSS, você também pode usar a seguinte sintaxe: grow-(<custom-property>)
+
+<div class="grow-(--my-grow) ...">
+  <!-- ... -->
+</div>
+Isso é apenas uma forma abreviada de dizer que adiciona a função automaticamente para você. grow-[var(<custom-property>)] var()
+
+Design responsivo
+Adicione um prefixo de ponto de interrupção ao utilitário para que ele seja aplicado somente em telas de tamanho médio ou maior: flex-grow md:
+
+<div class="grow md:grow-0 ...">
+  <!-- ... -->
+</div>*/
+
+
+/*1 (Padrão): O item encolherá proporcionalmente junto com os outros itens se o espaço do contêiner for excedido.2, 3 ou mais: Define o "peso" do encolhimento. Um item com valor 2 encolherá duas vezes mais rápido ou mais espaço do que um item com valor 1.Exemplo de CódigoNo exemplo abaixo, o contêiner tem largura fixa e a soma dos elementos filhos ultrapassa esse limite. O segundo item encolherá mais rapidamente que os outros.css.container {*/
+
+/*display: flex;
+  width: 500px; /* Contêiner pequeno 
+}*/
+
+/*.item-1 {
+  width: 200px;
+  flex-shrink: 1; /* Padrão 
+}*/
+
+/*.item-2 {
+  width: 300px;
+  flex-shrink: 3; /* Encolherá 3x mais que o item-1 
+}*/
+
+/*.item-3 {
+  width: 200px;
+  flex-shrink: 1; /* Padrão 
+}*/
+
+/*Use o código com cuidado.Para ver exemplos práticos e entender o cálculo e o comportamento do flex-shrink quando não há espaço suficiente no contêiner:*/
+
+
+/*Exemplo de Códigocss.container {
+  display: flex;  Define o contêiner como flexível 
+  width: 500px;
+}*/
+
+/*.item-1 {
+  width: 100px;
+  flex-grow: 1; /* Recebe 1 parte do espaço restante 
+}*/
+
+/*.item-2 {
+  width: 100px;
+  flex-grow: 2; /* Recebe 2 partes do espaço restante (o dobro) 
+}*/
+
+/*A propriedade flex-grow do CSS controla a capacidade de um item flexível crescer e ocupar o espaço livre dentro de um contêiner (no eixo principal). Ela aceita valores numéricos sem unidade (proporções) e define quanto do espaço vazio deve ser atribuído a cada elemento.Para entender na prática como o flex-grow distribui os espaços:*/
+
+
+/*A propriedade CSS flex-shrink define o quanto um item flexível deve encolher quando não há espaço suficiente no contêiner. O valor padrão é 1, indicando que todos os itens encolhem proporcionalmente. Definir como 0 impede o encolhimento, enquanto números maiores aceleram a redução em relação aos outros itens.Para compreender o flex-shrink na prática:Valores Comuns0: O elemento mantém seu tamanho original e nunca encolhe, podendo causar overflow (transbordamento).*/
+
+/*.box{
+     background-color: aqua;
+     border: 1px  solid green;
+     width: 60px;
+     height: 60px;
+     flex-basis: 120px;
+}*/
+
+/*#item1{
+  align-self: flex-start;  /* movimenta a o produto dentro do conteainer.
+  align-self: flex-end;  => Exemlo de cada um dentro do jogo da velha que pode ser usado.
+  }*/
+
+
+/*align-items: start, center, flex-end*/
+/*flex-start; é o padrão. center é o eixo da coluna. flex-end final da coluna*/
+/*flex-wrap: quebra para linha de baixo*/
+
+/*Tudo isso é dentro do conteiner pai*/
+      /*flex-direction: row;*/  /*É o padrão mexe a linha*/
+      /*align-items: flex-end;*/
+      /*flex-direction: column;*/    /*Trabalha a coluna*/
+      /*align-items: center;*/
+      /*align-items: flex-start;*/
+      /*justify-content: flex-end;*/
+
+      /*flex-wrap: wrap =>É quebra de linha dentro do container.*/
+
+      /*display: flex;
+      justify-content: center;
+      align-items: center;*/
+
+      /*#item1{
+  align-self: flex-start;  movimenta a o produto dentro do conteainer.
+} */
