@@ -1,0 +1,19 @@
+body{
+   background-color: aquamarine;
+}
+
+.container{
+     width: 100%;
+     background-color: beige;
+     border: 1px solid gray;
+     margin: auto;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.box{
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+     margin: 10px;
+}
