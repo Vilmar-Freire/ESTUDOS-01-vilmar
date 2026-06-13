@@ -16,3 +16,19 @@ h1{
     font-family: "space Grotesk", sans-serif;
     color: brown;
 }
+
+header{
+    color:blue;
+}
+
+main{
+    color: red;
+}
+
+footer{
+    color:chocolate;
+}
+
+section{
+    color: blueviolet;
+}
