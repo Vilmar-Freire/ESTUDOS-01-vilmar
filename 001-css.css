@@ -1,8 +1,0 @@
-.box{
-            background-color: pink;  /* Cor de fundo */
-            color: #FFF;            /* Cor do texto */
-            font-weight: bold;      /* Texto em negrito */
-            padding: 10px;          /* Espaçamento interno */
-            border: 1px solid #ccc; /* Borda */
-            margin: 100px;           /* Espaçamento externo */
-}
