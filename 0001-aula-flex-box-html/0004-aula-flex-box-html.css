@@ -15,6 +15,9 @@ header{
      height: 80px;
      display: flex;
      background-color: #3c4879;
+     -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
 }
 
 .container{
@@ -36,7 +39,6 @@ header{
 .entrar{
      width: 20%;
      height: 100%;
-     background-color: blueviolet;
 }
 
 .logo{
@@ -47,6 +49,7 @@ header{
 
 .logo img{
      width: 150px;
+     cursor: pointer;
 }
 
 ul {
@@ -63,7 +66,7 @@ nav {
 
 li{
     list-style: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: white;
     cursor: pointer;
     border-radius: 10px;
@@ -82,8 +85,32 @@ li:hover{
 
 .btn-entrar{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 15px 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.menu img{
-     width: 300px;
+.btn-entrar:hover{
+    background-color: white;
+    color: #3c4879;
 }
+
+.ativo{
+    background-color: white;
+    color: #3c4879;
+}
+
+
+
+
+
+
+/*.menu img{
+     width: 300px;
+}*/
+

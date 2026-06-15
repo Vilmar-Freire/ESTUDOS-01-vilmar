@@ -1,0 +1,349 @@
+/* ========================================
+   TEMAS DE CORES - PALETAS REUTILIZÁVEIS
+   ======================================== */
+
+/* TEMA 01 - AZUL PROFISSIONAL */
+:root[data-theme="azul"] {
+  --cor-primaria: #1e3a8a;
+  --cor-secundaria: #3b82f6;
+  --cor-destaque: #60a5fa;
+  --cor-fundo: #f0f9ff;
+  --cor-texto: #1e293b;
+  --cor-borda: #bfdbfe;
+  --cor-sucesso: #10b981;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #ef4444;
+}
+
+/* TEMA 02 - VERDE NATUREZA */
+:root[data-theme="verde"] {
+  --cor-primaria: #15803d;
+  --cor-secundaria: #22c55e;
+  --cor-destaque: #86efac;
+  --cor-fundo: #f0fdf4;
+  --cor-texto: #166534;
+  --cor-borda: #bbf7d0;
+  --cor-sucesso: #059669;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #dc2626;
+}
+
+/* TEMA 03 - ROXO MODERNO */
+:root[data-theme="roxo"] {
+  --cor-primaria: #6d28d9;
+  --cor-secundaria: #a855f7;
+  --cor-destaque: #d8b4fe;
+  --cor-fundo: #faf5ff;
+  --cor-texto: #4c1d95;
+  --cor-borda: #e9d5ff;
+  --cor-sucesso: #7c3aed;
+  --cor-aviso: #f97316;
+  --cor-erro: #e11d48;
+}
+
+/* TEMA 04 - LARANJA ENERGÉTICO */
+:root[data-theme="laranja"] {
+  --cor-primaria: #c2410c;
+  --cor-secundaria: #f97316;
+  --cor-destaque: #fb923c;
+  --cor-fundo: #fff7ed;
+  --cor-texto: #7c2d12;
+  --cor-borda: #fed7aa;
+  --cor-sucesso: #16a34a;
+  --cor-aviso: #eab308;
+  --cor-erro: #dc2626;
+}
+
+/* TEMA 05 - ROSA ELEGANTE */
+:root[data-theme="rosa"] {
+  --cor-primaria: #be185d;
+  --cor-secundaria: #ec4899;
+  --cor-destaque: #f472b6;
+  --cor-fundo: #fdf2f8;
+  --cor-texto: #831843;
+  --cor-borda: #fbcfe8;
+  --cor-sucesso: #0ea5e9;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #f43f5e;
+}
+
+/* TEMA 06 - CINZA MINIMALISTA */
+:root[data-theme="cinza"] {
+  --cor-primaria: #374151;
+  --cor-secundaria: #6b7280;
+  --cor-destaque: #9ca3af;
+  --cor-fundo: #f9fafb;
+  --cor-texto: #111827;
+  --cor-borda: #d1d5db;
+  --cor-sucesso: #34d399;
+  --cor-aviso: #fbbf24;
+  --cor-erro: #f87171;
+}
+
+/* TEMA 07 - CIANO FRESCO */
+:root[data-theme="ciano"] {
+  --cor-primaria: #0891b2;
+  --cor-secundaria: #06b6d4;
+  --cor-destaque: #22d3ee;
+  --cor-fundo: #ecf9ff;
+  --cor-texto: #164e63;
+  --cor-borda: #a5f3fc;
+  --cor-sucesso: #10b981;
+  --cor-aviso: #fbbf24;
+  --cor-erro: #ef4444;
+}
+
+/* TEMA 08 - VERMELHO VIBRANTE */
+:root[data-theme="vermelho"] {
+  --cor-primaria: #991b1b;
+  --cor-secundaria: #dc2626;
+  --cor-destaque: #f87171;
+  --cor-fundo: #fef2f2;
+  --cor-texto: #7f1d1d;
+  --cor-borda: #fecaca;
+  --cor-sucesso: #0ea5e9;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #b91c1c;
+}
+
+/* TEMA 09 - AMARELO QUENTE */
+:root[data-theme="amarelo"] {
+  --cor-primaria: #a16207;
+  --cor-secundaria: #d97706;
+  --cor-destaque: #fcd34d;
+  --cor-fundo: #fffbeb;
+  --cor-texto: #451a03;
+  --cor-borda: #fef3c7;
+  --cor-sucesso: #10b981;
+  --cor-aviso: #f97316;
+  --cor-erro: #ef4444;
+}
+
+/* TEMA 10 - INDIGO PROFUNDO */
+:root[data-theme="indigo"] {
+  --cor-primaria: #312e81;
+  --cor-secundaria: #4f46e5;
+  --cor-destaque: #818cf8;
+  --cor-fundo: #f0f4ff;
+  --cor-texto: #1e1b4b;
+  --cor-borda: #c7d2fe;
+  --cor-sucesso: #34d399;
+  --cor-aviso: #fbbf24;
+  --cor-erro: #f87171;
+}
+
+/* TEMA 11 - ESCURO (Dark Mode) */
+:root[data-theme="escuro"] {
+  --cor-primaria: #e5e7eb;
+  --cor-secundaria: #9ca3af;
+  --cor-destaque: #d1d5db;
+  --cor-fundo: #1f2937;
+  --cor-texto: #f3f4f6;
+  --cor-borda: #4b5563;
+  --cor-sucesso: #34d399;
+  --cor-aviso: #fbbf24;
+  --cor-erro: #f87171;
+}
+
+/* TEMA 12 - TEAL VIBRANTE */
+:root[data-theme="teal"] {
+  --cor-primaria: #134e4a;
+  --cor-secundaria: #14b8a6;
+  --cor-destaque: #5eead4;
+  --cor-fundo: #f0fdfa;
+  --cor-texto: #0d3836;
+  --cor-borda: #99f6e4;
+  --cor-sucesso: #0891b2;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #ef4444;
+}
+
+/* TEMA 13 - BLACK ELEGANT */
+:root[data-theme="black"] {
+  --cor-primaria: #000000;
+  --cor-secundaria: #1a1a1a;
+  --cor-destaque: #333333;
+  --cor-fundo: #0f0f0f;
+  --cor-texto: #ffffff;
+  --cor-borda: #404040;
+  --cor-sucesso: #10b981;
+  --cor-aviso: #f59e0b;
+  --cor-erro: #ef4444;
+}
+
+/* ========================================
+   COMPONENTES COM TEMAS
+   ======================================== */
+
+/* Caixa com Tema */
+.box-tema {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  border: 2px solid var(--cor-borda);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão com Tema */
+.btn-tema {
+  background-color: var(--cor-primaria);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-tema:hover {
+  background-color: var(--cor-secundaria);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão Secundário */
+.btn-secundario {
+  background-color: var(--cor-secundaria);
+  color: white;
+  border: 2px solid var(--cor-primaria);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-secundario:hover {
+  background-color: var(--cor-destaque);
+}
+
+/* Card com Tema */
+.card-tema {
+  background: linear-gradient(135deg, var(--cor-fundo) 0%, white 100%);
+  border-left: 5px solid var(--cor-primaria);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-tema h3 {
+  color: var(--cor-primaria);
+  margin-top: 0;
+}
+
+/* Barra de Progresso */
+.progress-bar-tema {
+  background-color: var(--cor-borda);
+  border-radius: 10px;
+  height: 25px;
+  overflow: hidden;
+  border: 1px solid var(--cor-primaria);
+}
+
+.progress-bar-tema::after {
+  content: '';
+  display: block;
+  background-color: var(--cor-primaria);
+  width: 65%;
+  height: 100%;
+  animation: progress 2s ease-in-out;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+/* Input com Tema */
+.input-tema {
+  background-color: var(--cor-fundo);
+  border: 2px solid var(--cor-borda);
+  color: var(--cor-texto);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.input-tema:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(var(--cor-primaria-rgb), 0.1);
+}
+
+/* Alerta com Tema */
+.alert-tema {
+  background-color: var(--cor-fundo);
+  border: 2px solid var(--cor-primaria);
+  color: var(--cor-texto);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.alert-sucesso {
+  border-color: var(--cor-sucesso);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.alert-aviso {
+  border-color: var(--cor-aviso);
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.alert-erro {
+  border-color: var(--cor-erro);
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+/* Badge com Tema */
+.badge-tema {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* ========================================
+   COMO USAR
+   ======================================== */
+
+/* 
+   No seu HTML, adicione data-theme no elemento <html> ou <body>:
+   
+   <html data-theme="azul">
+   ou
+   <body data-theme="verde">
+   
+   Depois, use as classes e variáveis CSS:
+   
+   <div class="box-tema">
+     <button class="btn-tema">Clique aqui</button>
+   </div>
+   
+   Para alternar temas dinamicamente com JavaScript:
+   
+   document.documentElement.setAttribute('data-theme', 'roxo');
+   
+   Temas disponíveis:
+   - azul
+   - verde
+   - roxo
+   - laranja
+   - rosa
+   - cinza
+   - ciano
+   - vermelho
+   - amarelo
+   - indigo
+   - escuro
+   - teal
+*/
