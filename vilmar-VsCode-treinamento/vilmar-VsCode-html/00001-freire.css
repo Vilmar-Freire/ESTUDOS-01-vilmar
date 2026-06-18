@@ -1,3 +1,37 @@
 body{
-    background-color: DimGrey;
+    background-color: #124578;
+
 }
+
+h1{
+    background-color: aqua;
+    color: red;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #ff5722;
+}
+
+h2{
+    background-color: #ff5722;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline ;
+    text-decoration-color: brown;
+    text-decoration-thickness: 5px;
+
+}
+
+.apolo-01{
+    color: blue;
+    background-color:yellow;
+    
+}
+
+.apolo-02{
+    background-color: blue;
+    color: black;
+}
+
