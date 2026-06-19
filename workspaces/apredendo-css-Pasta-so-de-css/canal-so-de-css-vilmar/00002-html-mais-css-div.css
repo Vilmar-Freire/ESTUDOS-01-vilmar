@@ -1,0 +1,22 @@
+body{
+  background-color: goldenrod;
+}
+
+#pai{
+    background-color: aqua;
+    width: 600px;
+    height: 100px;
+}
+
+#pai div{
+    width: 100px;
+    height: 100px;
+}
+
+#filho-1{
+    background-color: ForestGreen;
+}
+
+#filho-2{
+    background-color: IndianRed;
+}
