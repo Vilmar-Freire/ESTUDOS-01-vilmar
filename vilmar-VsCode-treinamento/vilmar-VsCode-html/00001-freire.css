@@ -25,13 +25,28 @@ h2{
 }
 
 .apolo-01{
+    background-color: SlateGrey;
     color: blue;
+    font-style: normal;
     background-color:yellow;
     
 }
 
 .apolo-02{
-    background-color: blue;
+    background-color: chartreuse;
     color: black;
+
+}
+
+.apolo-03{
+    background-color:SlateGrey;
+    color: black;
+
+}
+
+.apolo-04{
+    background-color: DarkTurquoise;
+    color: black;
+
 }
 
