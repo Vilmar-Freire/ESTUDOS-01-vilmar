@@ -1,22 +1,23 @@
-body{
+body {
   background-color: goldenrod;
 }
 
-#pai{
-    background-color: aqua;
-    width: 600px;
-    height: 100px;
+#pai {
+  background-color: aqua;
+  width: 600px;
+  height: 100px;
 }
 
-#pai div{
-    width: 100px;
-    height: 100px;
+#pai div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
 }
 
-#filho-1{
-    background-color: ForestGreen;
+#filho-1 {
+  background-color: ForestGreen;
 }
 
-#filho-2{
-    background-color: IndianRed;
+#filho-2 {
+  background-color: IndianRed;
 }

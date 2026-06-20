@@ -1,27 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #124578;
 
 }
 
 h1{
-    background-color: aqua;
-    color: red;
     font-style: italic;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #ff5722;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: White;
+    text-decoration: underline ;
+    text-decoration-color:LimeGreen;
+}
+
+h1{
+    background-color: #ff5722;
+    width: 620px;
+    height: 40px;
 }
 
 h2{
-    background-color: #ff5722;
     color: aqua;
     font-style: italic;
     text-align: center;
     text-decoration: underline ;
-    text-decoration-color: brown;
+    text-decoration-color:LimeGreen;
     text-decoration-thickness: 5px;
+    margin-right: auto;
+    margin-left: auto;
 
+}
+
+h2{
+       background-color: DarkKhaki;
+       width: 620px;
+       height: 40px;
 }
 
 .apolo-01{
