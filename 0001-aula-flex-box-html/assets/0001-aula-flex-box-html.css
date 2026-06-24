@@ -33,6 +33,24 @@ body{
      order:1;
 }
 
+h1{
+  background-color:#009B4D;
+  width: 145px;
+  height: 40px;
+}
+
+.amor{
+  background-color: #00FFFF;
+  width: 75px;
+  height: 40px;
+  
+}
+
+h3{
+  background-color: #96C2DB;
+  width: 363px;
+  height: 26px;
+}
 
 
 
@@ -47,7 +65,7 @@ body{
 
 
 /*#item1{
-     flex-grow: 1;     /*Aumenta o tamanho
+flex-grow: 1;     /*Aumenta o tamanho
 }*/
 
 
