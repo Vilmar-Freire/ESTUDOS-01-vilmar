@@ -1,0 +1,25 @@
+body{
+  background-color: #7FFFD4;
+}
+
+ul  li {
+    color: blue;
+}
+
+ul .item{
+      font-size: 40px;
+}
+
+/*
+ul:first-child{
+      color: red;
+}*/
+
+ul li:nth-child(2){
+      color:deeppink;
+}
+
+ul li:last-child{
+      color: darkgoldenrod;
+}
+
