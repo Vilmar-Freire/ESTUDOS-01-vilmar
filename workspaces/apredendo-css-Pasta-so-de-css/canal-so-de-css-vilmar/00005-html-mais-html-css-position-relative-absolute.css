@@ -7,13 +7,27 @@ div{
 }
 
 header{
-    background-color: blue;
+    background-color:red;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-     width: 122px;
+    width: 122px;
     height: 20px;
 }
 
+button{
+    background-color: red;
+    color: white;
+    border:0px;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    /*top: 300px;*/
+    /*left: 400px;*/
+    bottom: 0px;
+    left: 500px;
+    /*position: static;*/   /*Ele volta com elemento d volta para esquerda e o proprio html decide onde ele vai usar o próprio html, sendo assim não preciso usar esse elemento .*/
+
+}

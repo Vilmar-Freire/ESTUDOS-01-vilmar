@@ -1,0 +1,25 @@
+body{
+  background-color: #FAEBD7;
+}
+
+div{
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+}
+
+.caixa-azul{
+      background-color: blue;
+}
+
+#caixa-azul-grande{
+          width: 200px;
+          height: 200px;
+}
+
+input[type="email"] {
+          padding: 10px;
+          background-color: blue;
+          color: white;
+}

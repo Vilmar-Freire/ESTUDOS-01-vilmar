@@ -1,0 +1,17 @@
+body{
+    background-color: #BDB76B;
+}
+
+h1{
+    color: red;
+}
+
+span{
+    color:#FF1493;
+}
+
+div{
+    color: #FF8C00;
+    font-size: 15px;
+    background-color: darkcyan;
+}
