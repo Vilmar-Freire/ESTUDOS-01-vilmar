@@ -1,0 +1,27 @@
+body{
+      background-color: #8C8478;
+}
+      
+
+.section-one{
+      background-color: #FF5A5F;
+      background-image:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpo0pMC3ATldWqJ7FM07vrUFrHDwfOgs0dFemJ4jeTA&s=10);
+      background-size: cover;
+      background-position: center center;
+      border: 1px solid #7fff00;
+      width:  200px;
+      height: 50px;
+      border-bottom-width: 10px;
+      padding: 15px;
+      color: #fff;
+      margin: 20px;
+}
+
+.section-two{
+      background-color: #2F5233;
+      width:  200px;
+      height: 50px;
+      border: 5px solid #2563EB;
+      padding: 15px;
+      margin: 20px;
+}  
