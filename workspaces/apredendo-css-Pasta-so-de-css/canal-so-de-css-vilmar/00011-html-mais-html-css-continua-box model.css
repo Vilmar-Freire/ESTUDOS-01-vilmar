@@ -1,19 +1,56 @@
 body{
       background-color: #8C8478;
 }
-      
+
+/*colocando o asteristico eu estou selecionando todos os elementos */
+
+*{
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      line-height: 20px;
+      margin: 0;
+      padding: 0;
+}
+
+/*.section-one, 
+.section-two {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      text-align: center;
+      line-height: 20px;
+}
+      */
+
+
 
 .section-one{
       background-color: #FF5A5F;
       background-image:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpo0pMC3ATldWqJ7FM07vrUFrHDwfOgs0dFemJ4jeTA&s=10);
       background-size: cover;
       background-position: center center;
-      border: 1px solid #7fff00;
-      width:  200px;
-      height: 50px;
-      border-bottom-width: 10px;
-      padding: 15px;
       color: #fff;
+      /*border: 1px solid #7fff00; */
+      width:  300px;
+      height: 150px;
+      /*border-bottom-width: 10px;*/
+      /*border-width: 10px; */      /*E essa eu configuro assim para ficar igual as outras.*/
+      /*border-bottom-width:  100px; */      /*Por exemplo se eu querer que fica maior que as outras eu posso usar assim configurando só a de baixo*/
+      /*border-bottom-style: solid;*/
+      border-style: solid;
+      border-width: 10px;
+      border-width: 10px;
+      border-bottom-color: #F5B027;
+      border-top-color: red;
+      border-left-color: blue;
+      border-right-color: green;
+      /*padding: 15px  0 0 0 10px;*/
+      /*padding: T D B E;*/
+     /* padding:0% 15px 0% 15px;*/
+     padding: 15px;
+      /*margin: 150px 0 0 0;*/
       margin: 20px;
 }
 
