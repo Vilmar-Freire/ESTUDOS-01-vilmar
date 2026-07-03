@@ -8,8 +8,9 @@ body{
 }
 
     nav{
-    background-color: #7F8C8D;
-    height: 50px;
+    /*background-color: #7F8C8D;*/
+    background: red;
+    /*height: 50px;*/
     /*display: flex;
     /*justify-content: center;*/
     /*align-items: center;*/
@@ -19,14 +20,32 @@ nav  a {
     text-decoration: none;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 20px;
+    display:  block;
+    text-transform: uppercase;      /*Text-transform deixa a letra em maiusculo*/
     /*font-size: 20px;*/
-    /*padding: 10px;*/
+}
+
+nav  a:hover {          /*Este usa para quando eu quiser passar o mause em cima tenha alguma mudança*/
+    background-color: rgba(0, 0, 0, 0.3);
+    /*color: black;*/
+    transition: 0.5s;
+}
+
+nav{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    /*align-self: center;*/
 }
 
 nav  ul {
     display: flex;
     /*justify-content: center;*/
     /*align-items: center;*/
-    list-style: none;
+    /*flex-direction: column-reverse; */   /*Se eu colocar column-reverse ele inverte a posição dos itens*/
+     list-style: none;
+      background-color: red;
+      /*margin-left:  10px;*/
     /*height: 100%;*/
 }
