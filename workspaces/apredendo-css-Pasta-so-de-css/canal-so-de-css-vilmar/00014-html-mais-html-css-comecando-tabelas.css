@@ -5,11 +5,27 @@
 }
 
 body{
+    font-family: sans-serif;
     background-color: #B46A55;
+}
+
+table{
+    border-collapse: collapse; /*Dessa maneira as bordas da tabela são colapsadas*/
+    width: 100%;
 }
 
 table td, table th{
     border: 1px solid #4285F4;
     padding: 10px;
     text-align: center;
+}
+
+table caption{
+    caption-side: bottom; /*A legenda da tabela fica na parte inferior da tabela*/
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    color: #B8FF00;
+    margin: 5px 0;
 }
