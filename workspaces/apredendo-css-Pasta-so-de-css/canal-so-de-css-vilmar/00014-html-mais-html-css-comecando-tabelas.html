@@ -34,12 +34,13 @@
   <title>Tabelas em HTML e CSS</title>
   </head>
   <body>
-     <main>
         <p>
           O uso da cor é uma forma fundamental de expressão humana.
         </p>
 
-       <table>
+        <div class="responsive-table">
+          <table>
+            <caption>Uma descrição para tabela</caption>
             <thead>
                 <tr>
                    <th>Título 1</th>
@@ -47,9 +48,33 @@
                    <th>Título 3</th>
                 </tr>
             </thead>
-       </table>
 
-       </main>
+            <tbody>
+                 <tr>
+                     <td>Vilmar-Freire=Vilmar-Freire</td>
+                     <td>Corpo 2</td>
+                     <td>Corpo 3</td>
+                 </tr>
+
+                 <tr>
+                     <td colspan="2"
+                     rowspan="2">AQUI</td>
+                     <td>Corpo 3</td>
+                 </tr>
+
+                 <tr>
+                    <td>Corpo 3</td>
+                 </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                     <td colspan="2" rowspan="2"></td>
+                     <td rowspan="3">TOTAL: <br> R$555</td>
+              </tr>
+            </tfoot>
+          </table>
+       </div>
   </body>
 </html>
 
@@ -59,7 +84,11 @@
 <tr> => É a linha da tabela.
 <th>Título 1</th> => Para colunas eu utilizo duas tags ou TD ou PH como eu estou falando de TR eu uso TH aqui.
 <td></td> Para colunas eu utilizo duas tags ou TD ou PH como eu estou falando de TR eu uso TH aqui.
-
+<tbody></tbody> => Cria o corpo da tabela eu preciso dessa tag para criar o corpo da tabela.
+<tfoot></tfoot> => Cria o rodapé da tabela.
+<td colspan="3"></td> => Faz com que ocupa três espaços de coluna linha horizontal
+<td colspan="2"
+rowspan="">AQUI</td> <td>Corpo 3</td> => Ocupa a parte de baixo da linha vertical.
 
 
 

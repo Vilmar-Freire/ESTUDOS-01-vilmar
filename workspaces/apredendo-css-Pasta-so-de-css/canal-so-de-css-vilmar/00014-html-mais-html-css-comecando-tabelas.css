@@ -10,8 +10,43 @@ body{
     background-color: #B46A55;
 }
 
+table{
+    border-collapse:collapse;
+    width: 800px;
+}
+
 table td, table th{
     border:  1px  solid#38BDF8;
     padding: 5px;
+    text-align: left;
 }
 
+table caption{
+    caption-side: bottom;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+tfoot td, table th{
+    background: #A78BFA;
+}
+
+tfoot td{
+    font-style: italic;
+}
+
+.responsive-table{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/*border-collaps:collapse: => cola a tabela essa é a funçao do collapse
+width => Pega a largura da tela inteira éla fica grandona.
+
+
+
+
+
+*/
