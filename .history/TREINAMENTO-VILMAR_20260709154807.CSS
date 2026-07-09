@@ -1,4 +1,7 @@
-
+*{
+    width: 0;
+    height:0
+}
 
 body{
     background-color: red;
@@ -14,13 +17,10 @@ h1{
 }
 
 .treinamento{
-    background-color:green;
-    justify-content: flex-end;
-    width: 500px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: lefet;
-    border:10px solid beige;
-    
+    border:solid
 }
+
+
+
+
+
