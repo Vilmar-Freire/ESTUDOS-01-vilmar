@@ -76,6 +76,73 @@
             </p>
 
             <p>
+                <label for="number">number</label>
+                <input  type="number" id="number" name="number" placeholder="Digite um número" min="1" max="50">
+            </p>
+
+            <p>
+                <label for="password">password</label>
+                <input  type="password" id="password" name="password" placeholder="Digite sua senha">
+            </p>
+
+             <p>
+                <label for="range">range</label>
+                <input  type="range" id="range" name="range" min="0" max="10" step="2">
+            </p>
+
+                                                                                                                
+<label for="temp">Choose a comfortable temperature:</label><br>
+<input type="range" id="temp" name="temp" list="markers">
+
+<datalist id="markers">
+  <option value="0"></option>
+  <option value="25"></option>
+  <option value="50"></option>
+  <option value="75"></option>
+  <option value="100"></option>
+</datalist>
+
+
+<p>
+  <label for="temp1">Temperature for room 1:</label>
+  <input type="range" id="temp1" name="temp1" list="value">
+</p>
+<p>
+  <label for="temp2">Temperature for room 2:</label>
+  <input type="range" id="temp2" name="temp2" list="value">
+</p>
+
+<p>
+  <label for="temp3">Temperature for room 3:</label>
+  <input type="range" id="temp3" name="temp3" list="value">
+</p>
+
+<datalist id="values">
+  <option value="0" label="0"></option>
+  <option value="25" label="25"></option>
+  <option value="50" label="50"></option>
+  <option value="75" label="75"></option>
+  <option value="100" label="100"></option>
+</datalist>
+
+                                                                             
+<label for="tempB">Choose a comfortable temperature:</label><br>
+<input type="range" id="tempB" name="tempB" list="value">
+
+<datalist id="value">
+  <option value="0" label="very cold!"></option>
+  <option value="25" label="cool"></option>
+  <option value="50" label="medium"></option>
+  <option value="75" label="getting warm!"></option>
+  <option value="100" label="hot!"></option>
+</datalist>
+
+
+
+
+
+
+            <p>
                 <button type="reset">Reset</button>
                 <button type="submit">Enviar</button>
             </p>
@@ -85,9 +152,15 @@
 </html>
 
 <!--
+                                                           LEMBRETE PARA FIXAÇÃO. 
 fieldset => Serve para agrupar os campos de um formulário.
 required => mostra a mensagem no site quando tenta mandar o formulário sem preencher.
 checked => mostra ele marcado não precisa eu marcar ele já vem marcado por padrão
+
+            <p>
+            <label for="number">number</label>
+            <input  type="number" id="number" name="number" placeholder="Digite um número" min="1" max="50" step>
+            </p> eu colocando esse step dessa forma ele vai pulando de cinco em cinco.
 
 
 
