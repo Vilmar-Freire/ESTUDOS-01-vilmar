@@ -1,0 +1,23 @@
+body{
+    background-color: #cc8800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    margin: 20px 0;
+}
+
+th,td{
+    border: 1px solid ;
+}
+
+/*
+borde-collapse:collapse; => Remove o espaçamento duplo das bordas.
+padding: =
+
+
+
+*/
