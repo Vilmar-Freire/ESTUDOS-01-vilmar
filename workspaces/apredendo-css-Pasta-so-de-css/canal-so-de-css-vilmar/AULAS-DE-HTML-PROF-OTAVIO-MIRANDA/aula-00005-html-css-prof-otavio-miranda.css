@@ -1,0 +1,14 @@
+body{
+  background-color: #ccffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  background: #194d19;
+  width: 230px;
+  height: 42px;
+}
+
+p{
+  font-weight: bold;
+}
