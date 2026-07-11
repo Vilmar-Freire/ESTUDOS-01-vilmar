@@ -1,0 +1,23 @@
+body{
+  background-color: #00bfff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  background: red;
+  width: 180px;
+  height: 40px;
+}
+
+p{
+  background: #00ff00;
+  width: 215px;
+}
+
+.fundo-vermelho{
+  background: brown;
+}
+
+.bold{
+  color: #ffbf00;
+}
