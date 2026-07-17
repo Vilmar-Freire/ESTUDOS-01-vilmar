@@ -1,3 +1,4 @@
+/*Para que serve o box-sizing e o border-box? Em português quer dizer a caixa depende do seu conteúldo. Neste caso eu estou dizendo que a limitação o tamanho da caixa box-sizing ele está limitado a sua borda na plática quer dizer se eu tirar o box-sizing e o border-box quando eu colocar um padding com seu valor ele também vai almentar o tamanho da caixa junto e para reduzir tinha que ficar fazendo conta quando coloca o box-sizing não precisa ficar fazendo conta. Só temos que tomar cuidado que é só quando trabalhamos com box-model que fazemos dessa maneira. Eles estão diretamente relacionados com a padding tamanho da caixa do box-model.*/                                              
 *{
   box-sizing: border-box;
 }
@@ -76,10 +77,64 @@ body{
   height: 400px;
   border: dotted 5px rgb(255, 255, 132);
   margin: 10% auto;
-  padding-top: 20px;
+  padding-top: 70px;
   padding-left: 100px;
   color: #ffffff;
 }
 
+/*Aqui já usamos o padding de outra maneira mais platica usamos padding: 70px top,  0 right que é a direita, 0 bottom que é a parte de baixo, 100px; que é left que a esquerda.*/
+.box-9{
+  width: 400px;
+  height: 400px;
+  border: solid 5px rgb(80, 45, 118);
+  margin: 10% auto;
+  padding: 70px 0 0 120px;
+  color: #ffffff;
+}
 
-/*No especionar se eu clicar na setinha e escolher div que eu quero mudar eu poço mudar diretamente no especionar clicando com a seta para cima*/
+/*Aqui já usei o padding em 70px no top, 70px no bottom, 120px no left*/
+.box-10{
+  width: 400px;
+  height: 400px;
+  border: dotted 5px rgb(152, 225, 213);
+  margin: 10% auto;
+  padding: 70px 0 70px 120px;
+  color: #ffffff;
+}
+
+/*Aqui todos os padding estão com medidas isto quer dizer que eles estão todos dimisionados.*/
+.box-11{
+  width: 400px;
+  height: 400px;
+  border: solid 5px rgb(235, 178, 39);
+  margin: 10% auto;
+  padding: 70px 80px 70px 80px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/*Aqui se olharmos o box-11 veremos ambos com os lados iguais sendo assim podemos eliminar dois que são iguais e ficar só com dois que eles vão ser a mesma coisa e estou afirmando no top e no bottom 70px em ambos os lados. E 80px no right e 80px no left estou afirmando que os dois tem ambos os lados as mesmas medidas.*/
+.box-12{
+  width: 400px;
+  height: 400px;
+  border: solid 5px rgb(71, 133, 127);
+  margin: 10% auto;
+  padding: 70px 80px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/*Aqui se eu quisesse borda só a direita eu aplicava border-right*/
+.box-13{
+  width: 400px;
+  height: 400px;
+  border-right: solid 5px rgb(86, 54, 57);
+  margin: 10% auto;
+  padding: 70px 80px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+
+/*No inspecionar se eu clicar na setinha e escolher div que eu quero mudar eu poço mudar diretamente no inspecionar clicando com a seta para cima escolho a resolução que fica melhor copio e colo no padding que eu quero que muda*/
