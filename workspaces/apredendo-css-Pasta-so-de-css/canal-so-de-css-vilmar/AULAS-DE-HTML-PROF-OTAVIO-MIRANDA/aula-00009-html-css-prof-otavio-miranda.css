@@ -1,0 +1,12 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background: #E1F5FE;
+}
+
+.section-one{
+  background: deeppink;
+}
+
+.section-two{
+  background: cyan;
+}
