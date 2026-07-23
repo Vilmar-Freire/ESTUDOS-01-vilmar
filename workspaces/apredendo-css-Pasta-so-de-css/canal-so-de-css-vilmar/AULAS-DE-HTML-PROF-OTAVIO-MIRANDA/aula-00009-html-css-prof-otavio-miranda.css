@@ -8,19 +8,19 @@ body{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxfmMTgv_fz25To-8BMiiTN6rU-nEZj2H3EmLnV66oiA&s=10);
   background-size: cover;
   background-position: center center;
-  width: 200px;
+  width: 250px;
   height: 150px;
   border: 1px solid #ecf9f2;
   padding: 15px;
   color: blue;
   font-family: monospace;
+  margin: 20px;
 }
 
 .section-two{
   background-color: #ff99dd;
-  background-position: center center;
-  width: 200px;
-  height: 50px;
+  width: 197px;
+  height: 150px;
   border-style: solid;
   border-width: 10px;
   border-bottom-width: 15px;
@@ -33,5 +33,20 @@ body{
   border-left-color: blue;
   padding: 15px;
   color: #E1F5FE;
-  margin: 30px;
+  margin: 20px;
+}
+
+.section-try{
+  width: 261px;
+  height: 150px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROT5fKd0Pzn4Rs2MlFYvOTWgSfVcVT9ILGp88wwjZfng&s=10);
+  background-size: cover;
+  background-position: center center;
+  color: #ff99dd;
+  font-family: monospace;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: #800000;
+  padding: 10px;
+  margin: 20px;
 }
