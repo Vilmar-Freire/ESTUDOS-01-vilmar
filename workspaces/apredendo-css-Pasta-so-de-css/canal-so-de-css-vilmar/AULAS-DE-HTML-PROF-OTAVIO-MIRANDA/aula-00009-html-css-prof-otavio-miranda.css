@@ -1,7 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
 body{
   font-family: 'Courier New', Courier, monospace;
   background-color: #E1F5FE;
 }
+
+/*.section-one,
+.section-two{
+  box-sizing: border-box;
+}*/
 
 .section-one{
   background-color: deeppink;
@@ -11,7 +22,7 @@ body{
   width: 250px;
   height: 150px;
   border: 1px solid #ecf9f2;
-  padding: 15px;
+  padding: 10px;
   color: blue;
   font-family: monospace;
   margin: 20px;
@@ -19,7 +30,7 @@ body{
 
 .section-two{
   background-color: #ff99dd;
-  width: 197px;
+  width: 250px;
   height: 150px;
   border-style: solid;
   border-width: 10px;
@@ -37,16 +48,64 @@ body{
 }
 
 .section-try{
-  width: 261px;
+  width: 249px;
   height: 150px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROT5fKd0Pzn4Rs2MlFYvOTWgSfVcVT9ILGp88wwjZfng&s=10);
   background-size: cover;
   background-position: center center;
   color: #ff99dd;
   font-family: monospace;
+  border: 1px solid #ff1a1a;
   border-bottom-style: solid;
   border-bottom-width: 10px;
   border-bottom-color: #800000;
   padding: 10px;
   margin: 20px;
 }
+
+.vilmar-freire{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJVizL8lILcXevbWpQ_tfEDstRmnRAnJBt_JgvXK-hQ&s);
+  background-size: cover;
+  background-position: center center;
+  background-color: #ff99dd;
+  width: 250px;
+  height: 150px;
+  border-style: solid;
+  border-width: 10px;
+  border-bottom-width: 15px;
+  border-top-width: 20px;
+  border-left-width: 25px ;
+  border-right-width: 30px;
+  border-bottom-color: firebrick;
+  border-top-color: #cc8800;
+  border-right-color: green;
+  border-left-color: blue;
+  padding: 15px;
+  color: #E1F5FE;
+  margin: 20px;
+}
+
+.vilmar-freire-01{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOUPP-RVDmJ--IbG2cnDqGLwu0Xm-kLBwFuuqjCj04w&s);
+  background-size: cover;
+  background-position: center center;
+  background-color: #ff99dd;
+  width: 750px;
+  height: 250px;
+  border-style: solid;
+  border-width: 10px;
+  border-bottom-width: 15px;
+  border-top-width: 20px;
+  border-left-width: 25px ;
+  border-right-width: 30px;
+  border-bottom-color: firebrick;
+  border-top-color: #cc8800;
+  border-right-color: green;
+  border-left-color: blue;
+  padding: 10px;
+  /*padding: 0 450px 150px 150px;*/
+  /*Lembrente T D B E  PARA NÃO SE ESQUECER.*/
+  color: #ffffff;
+  margin: 20px;
+}
+
