@@ -24,15 +24,19 @@ nav a {
 
 nav{
   display: flex;
+ /* justify-content: center*/;
   align-items: center;
 }
 
 nav ul{
   display: flex;
   list-style: none;
+  background: blue;
+  margin: 10px;
 }
 
-
-/*text-decoration: none; é a mãozinha
+/*text-decoration: none; tira o risquinho dos botões quando passa o mause em cima.
 text-transform: uppercase; => deixa o texto em maiusculo.
+list-style-type: disc; posso list-style-type: none usar este para sumir as bolinhas que é o padrão.
+ou posso pegar um atalho e colocar list-style: none; também vai sumir as bolinhas.
 */
