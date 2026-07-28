@@ -45,36 +45,3 @@ nav a {
 nav a:hover{  /*A tag hover é para quando eu passar o mause em cima mudar a cor.*/
        color: red;
 }
-
-
-
-
-
-
-
-
-main{
-  background: #ccc;
-  width: 100%;
-  height: 200px;
-}
-
-aside{
-  background: #999;
-  width: 30%;
-  height: 100px;
-  float: left;
-}
-
-section{
-  background: #999;
-  width: 40%;
-  height: 100px;
-  float: left;
-}
-
-footer{
-  background: grey;
-  width: 100%;
-  height: 200px;
-}
