@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Vilmar Freire">
+  <meta name="description" content="Criação de um formulario">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Formulário, Criação de Formulário">
+  <link rel="stylesheet" href="./PASTA-GUSTAVO-CSS/prof-gustavo-00001.css" type="text/css">
+  <script src="./PASTA-GUSTAVO-JAVSCRIPT/prof-gustavo-00001.JavaScript" defer></script>
+  <link rel="icon" type="image/x-icon" href="./ICONES/12-galinha2716918.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+      <form>
+            <div>
+                  <h1>Crie seu personagem</h1>
+                  <span>Seja bem criativo :)</span>
+            </div>
+
+            <fieldset>
+                  <div>
+                    <p>
+                      <label for="character-name">Nome</label>
+                      <input type="text" id="character-name" name="character-name" required>
+                      </p>
+
+                      <p>
+                      <label for="last-name">Sobre-nome</label>
+                      <input type="text" id="last-name" name="last-name" required>
+                      </p>
+                  </div>
+
+                  <div>
+                       <p>
+                      <label for="birth-date">Data de nascimento</label>
+                      <input type="date" id="birth-date" name="birth-date" required>
+                       </p>
+
+                       <p>
+                        <label for="initial-level">Level inicial</label>
+                        <input type="number" id="initial-level" name="initial-level" min="1" max="100" required>
+                       </p>
+                  </div>
+
+                  <p>
+                    <label for="character-class">Classe</label>
+                    <select id="character-class" name="character-class" required>
+                      <option value="">Selecione uma classe</option>
+                      <option value="assassin">Assassino</option>
+                      <option value="warrior">Guerreiro</option>
+                      <option value="mage">Mago</option>
+                      <option value="ranger">Arqueiro</option>
+                      <option value="paladin">Paladinho</option>
+                    </select>
+                  </p>
+
+                  <p>
+                    <label >
+                        Quais são suas habilidades?
+                        <span>No máximo 2</span>
+                    </label>
+
+                    <label for="ability1">
+                      <input type="checkbox" id="ability1" name="abilities" value="ability1">
+                      Cura
+                    </label>
+
+                    <label for="ability2">
+                      <input type="checkbox" id="ability2" name="skills" value="ability2">
+                      Veneno
+                    </label>
+
+                    <label for="ability3">
+                      <input type="checkbox" id="ability3" name="skills" value="ability3">
+                      One shot
+                    </label>
+
+                    <label for="ability4">
+                      <input type="checkbox" id="ability4" name="skills" value="ability4">
+                      Levitação
+                    </label>
+
+                    <label for="ability5">
+                      <input type="checkbox" id="ability5" name="skills" value="ability5">
+                      Sword slash
+                    </label>
+
+                   <label for="fireball6">
+                      <input type="checkbox" id="fireball6" name="skills" value="fireball6">
+                      Fireball
+                    </label>
+                  </P>
+
+                  <p>
+                    <label for="strength">Nível de força</label>
+                    <input type="range" id="strength" name="strength" min="1" max="100" value="50" id="strength" name="strength">
+                    <span>0</span>
+                  </p>
+
+                   <p>
+                    <label for="widsom">Nível de inteligencia</label>
+                    <input type="range" id="widsom" name="widsom" min="1" max="100" value="50" id="widsom" name="widsom">
+                    <span>0</span>
+                  </p>
+
+                  <p>
+                    <label for="">
+                         Envie uma foto do seu personagem
+                         <spam>Opcional - Formatos aceitos: PNG, JPG,  JPEG e GIF</spam>
+                    </label>
+                    <input type="file" id="character-image" name="character-image">
+                  </p>
+            </fieldset>
+      </form>
+</body>
+</html>
