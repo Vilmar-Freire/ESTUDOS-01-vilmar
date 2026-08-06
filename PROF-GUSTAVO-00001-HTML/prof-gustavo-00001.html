@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="author" content="Vilmar Freire">
-  <meta name="description" content="Criação de um formulario">
+  <meta name="description" content="Criação de um formulário">
   <meta name="keywords" content="HTML, CSS, JavaScript, Formulário, Criação de Formulário">
   <link rel="stylesheet" href="./PASTA-GUSTAVO-CSS/prof-gustavo-00001.css" type="text/css">
   <script src="./PASTA-GUSTAVO-JAVSCRIPT/prof-gustavo-00001.JavaScript" defer></script>
   <link rel="icon" type="image/x-icon" href="./ICONES/12-galinha2716918.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Formulário de Personagem</title>
 </head>
 <body>
       <form>
@@ -24,12 +24,12 @@
                   <div>
                     <p>
                       <label for="character-name">Nome</label>
-                      <input type="text" id="character-name" name="character-name" required>
+                      <input type="text" id="character-name" name="character-name" minlength="3"  maxlength="30"  required>
                       </p>
 
                       <p>
                       <label for="last-name">Sobre-nome</label>
-                      <input type="text" id="last-name" name="last-name" required>
+                      <input type="text" id="last-name" name="last-name" minlength="3"  maxlength="30" required>
                       </p>
                   </div>
 
@@ -41,7 +41,7 @@
 
                        <p>
                         <label for="initial-level">Level inicial</label>
-                        <input type="number" id="initial-level" name="initial-level" min="1" max="100" required>
+                        <input type="number" id="initial-level" name="initial-level" min="0" max="100" required>
                        </p>
                   </div>
 
@@ -96,23 +96,32 @@
 
                   <p>
                     <label for="strength">Nível de força</label>
-                    <input type="range" id="strength" name="strength" min="1" max="100" value="50" id="strength" name="strength">
+                    <input type="range" id="strength" name="strength" min="1" max="100" value="50" id="strength" name="strength" required>
                     <span>0</span>
                   </p>
 
                    <p>
                     <label for="widsom">Nível de inteligencia</label>
-                    <input type="range" id="widsom" name="widsom" min="1" max="100" value="50" id="widsom" name="widsom">
+                    <input type="range" id="widsom" name="widsom" min="1" max="100" value="50" id="widsom" name="widsom" required>
                     <span>0</span>
                   </p>
 
                   <p>
-                    <label for="">
+                    <label for="character-image">
                          Envie uma foto do seu personagem
                          <spam>Opcional - Formatos aceitos: PNG, JPG,  JPEG e GIF</spam>
                     </label>
-                    <input type="file" id="character-image" name="character-image">
+                    <input type="file" id="character-image" name="character-image" name="character-image" accept=".png, .jpg, .jpeg, .gif" required>
                   </p>
+
+                  <p>
+                    <label for="origin">Conte um pouco da origem do seu personagem</label>
+                    <textarea id="origin" name="origin" rows="4" cols="50" placeholder="Digite a origem do seu personagem aqui..."  minlength="30" maxlength="180"   required></textarea>
+                  </p>
+
+                  <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
             </fieldset>
       </form>
 </body>
