@@ -1,3 +1,44 @@
-body{
-  background: #99e699;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+button{
+  cursor: pointer;
+}
+
+body{
+  background-color: #6087ad;
+}
+
+form{
+  background-color: #ecccec;
+  max-width: 400px;
+  margin: 32px auto;
+  border-radius: 8px;
+  padding: 18px 16px;
+  box-shadow: 0px 0px 8px 4px #000000;
+}
+
+.title-container{
+  text-align: center;
+  color: #0b162f
+  /*margin-bottom: 16px;*/
+}
+
+.title-container h1{
+  /*font-size: 24px;*/
+  margin-bottom: 8px;
+}
+
+.title-container span{
+  font-size: 18px;
+  /*color: #0b162f;*/
+}
+
+fieldset{
+  border: 0;
+  margin-top: 12px;
+}
+

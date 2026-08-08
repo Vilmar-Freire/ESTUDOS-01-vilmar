@@ -28,12 +28,12 @@
                     </div>
 
                   <div>
-                    <p>
+                    <p  class="input-container">
                       <label for="character-name">Nome</label>
                       <input type="text" id="character-name" name="character-name" minlength="3"  maxlength="30"  required>
                       </p>
 
-                      <p>
+                      <p class="input-container">
                       <label for="last-name">Sobre-nome</label>
                       <input type="text" id="last-name" name="last-name" minlength="3"  maxlength="30" required>
                       </p>
@@ -45,13 +45,13 @@
                       <input type="date" id="birth-date" name="birth-date" required>
                        </p>
 
-                       <p>
+                       <p class="input-container">
                         <label for="initial-level">Level inicial</label>
                         <input type="number" id="initial-level" name="initial-level" min="0" max="100" required>
                        </p>
                   </div>
 
-                  <p>
+                  <p class="input-container">
                     <label for="character-class">Classe</label>
                     <select id="character-class" name="character-class" required>
                       <option value="">Selecione uma classe</option>
@@ -63,8 +63,8 @@
                     </select>
                   </p>
 
-                  <p>
-                    <label >
+                  <p class="input-container specific-skills-container">
+                    <label class="specific-skills-title">
                         Quais são suas habilidades?
                         <span>No máximo 2</span>
                     </label>
@@ -100,19 +100,19 @@
                     </label>
                   </P>
 
-                  <p>
+                  <p class="input-container input-range-container">
                     <label for="strength">Nível de força</label>
-                    <input type="range" id="strength" name="strength" min="1" max="100" value="50" id="strength" name="strength" required>
-                    <span>0</span>
+                    <input type="range" id="strength" name="strength" min="1" max="100" value="50" id="strength" name="strength" required class="input-range">
+                    <span class="input-range-value">0</span>
                   </p>
 
-                   <p>
+                   <p class="input-container input-range-container">
                     <label for="widsom">Nível de inteligencia</label>
-                    <input type="range" id="widsom" name="widsom" min="1" max="100" value="50" id="widsom" name="widsom" required>
-                    <span>0</span>
+                    <input type="range" id="widsom" name="widsom" min="1" max="100" value="50" id="widsom" name="widsom" required class="input-range">
+                    <span class="input-range-value">0</span>
                   </p>
 
-                  <p>
+                  <p class="input-container character-image-container">
                     <label for="character-image">
                          Envie uma foto do seu personagem
                          <spam>Opcional - Formatos aceitos: PNG, JPG,  JPEG e GIF</spam>
@@ -120,12 +120,12 @@
                     <input type="file" id="character-image" name="character-image" name="character-image" accept=".png, .jpg, .jpeg, .gif" required>
                   </p>
 
-                  <p>
+                  <p class="input-container">
                     <label for="origin">Conte um pouco da origem do seu personagem</label>
                     <textarea id="origin" name="origin" rows="4" cols="50" placeholder="Digite a origem do seu personagem aqui..."  minlength="30" maxlength="180"   required></textarea>
                   </p>
 
-                  <p>
+                  <p class="input-container">
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpar</button>
             </fieldset>
