@@ -42,3 +42,86 @@ fieldset{
   margin-top: 12px;
 }
 
+.form-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+ /* flex-direction: column;*/
+  /*margin-bottom: 12px;*/
+}
+
+.input-container{
+  margin-top: 20px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*gap: 4px;*/
+  width: 100%;
+}
+
+label{
+ /* display: block;*/
+  /*font-size: 14px;*/
+  color: #f13537;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+input{
+  border: 0;
+  background-color:  transparent;
+  width: 100%;
+  padding: 2px;
+  border-bottom: 2px solid #f13537;
+}
+
+select{
+  border-radius: 6px;
+  cursor: pointer;
+  /*border: 0;*/
+  /*background-color:  transparent;*/
+  /*width: 100%;*/
+  padding: 4px;
+  /*border-bottom: 2px solid #f13537;*/
+}
+
+.specific-skills-container label{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
+  /*margin-bottom: 4px;*/
+}
+
+.specific-skills-container label:not(:first-of-type) {
+  margin-bottom: 4px;
+  color: #0b162f;
+}
+
+.specific-skills-container span{
+  font-size: 12px;
+ /* color: #f13537;*/
+ /* font-weight: bold;*/
+}
+
+input[type="checkbox"]{
+  width: unset;
+ /* accent-color: #f13537;*/
+}
+
+.input-range-container{
+  position: relative;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*gap: 8px;*/
+}
+
+.input-range{
+  width: 80%;
+  /*margin-right: 8px;*/
+}
+
+
+
+
