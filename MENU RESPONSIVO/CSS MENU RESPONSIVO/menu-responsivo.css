@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+}
+
+nav{
+  background-color: black;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+h1, p{
+  color: white;
+}
+
+nav, ul{
+  display: flex;
+  flex-direction: row;
+}

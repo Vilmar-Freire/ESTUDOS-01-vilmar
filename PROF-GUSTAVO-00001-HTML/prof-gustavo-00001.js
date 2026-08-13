@@ -27,7 +27,26 @@ inputsRangeType.forEach(input =>{
 document.querySelector(".create-character-form").addEventListener("submit", (event) =>{
     event.preventDefault()
 
-    const.charName = event.target["character-name"].value
+    const charName = event.target["character-name"].value
+    const charName = event.target["last-name"].value
+    const birthdate = event.target.birthdate.value
+    const level = event.target.level.value
+    const charClass = event.target["character-class"].value
 
-    console.log(event.target)
+    const specificSkillsInput = document.querySelectorAll("input[name=skill]:checked")
+    const  specificSkills = Array.from(specificSkillsInput).map(skill => {
+      return skill.value
+    })
+
+    const data = {
+      charName,
+      lastName,
+      birthdate,
+      level,
+      charClass,
+      specificSkills,
+    }
+
+
+    console.log(data)
 })
