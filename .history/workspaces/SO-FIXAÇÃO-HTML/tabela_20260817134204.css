@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+table th, table td{
+    border: 2px solid yellowgreen;
+    padding: 6px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table caption{
+    caption-side: top;
+    text-align: left;
+    font-style: 14p;
+}

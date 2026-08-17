@@ -1,0 +1,7 @@
+body{
+    background-color: aqua;
+}
+
+table th, table td{
+    border: 3px solid yellowgreen;
+}
