@@ -16,7 +16,7 @@ table th, table td{
 
 table{
   border-collapse: collapse;
-  width: 100%;
+  width: 800%;
 }
 
 table th{
@@ -33,4 +33,10 @@ table caption{
 
 tfoot td{
   background: #33ff33;
+  font-style: italic;
+}
+
+.responsive-table{
+      max-width: 100%;
+      overflow-x: auto;
 }

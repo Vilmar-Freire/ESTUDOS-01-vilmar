@@ -17,6 +17,7 @@
 <body>
     <p>Aprendendo tabela</p>
 
+    <div class="responsive-table">
     <table> <!--Pra montar uma tabela usa-se essa tag table.-->
         <caption>Uma descrição para tabela</caption>
         <thead> <!--Representa o inicio da tabela-->
@@ -34,26 +35,23 @@
               <td>Corpo 3</td>
           </tr>
 
-          <tr>  
-              <td>Corpo 1</td>
-              <td>Corpo 2</td>
+          <tr>
+              <td colspan="2" rowspan="2">aqui</td>
               <td>Corpo 3</td>
           </tr>
 
           <tr>
-              <td>Corpo 1</td>
-              <td>Corpo 2</td>
               <td>Corpo 3</td>
           </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                 <td>Rodapé 1</td>
-                 <td>Rodapé 2</td>
-                 <td>Rodapé 3</td>
+                 <td  colspan="2" rowspan="2"></td>
+                 <td rowspan="2">Total: <br> R$  555,00</td>
             </tr>
         </tfoot>
     </table>
+    </div>
    </body>
 </html>
