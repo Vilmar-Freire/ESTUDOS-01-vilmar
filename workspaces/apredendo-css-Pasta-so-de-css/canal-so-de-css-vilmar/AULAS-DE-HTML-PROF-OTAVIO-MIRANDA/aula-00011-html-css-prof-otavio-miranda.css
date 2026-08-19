@@ -16,7 +16,7 @@ table th, table td{
 
 table{
   border-collapse: collapse;
-  width: 800%;
+  width: 100%;
 }
 
 table th{
@@ -24,7 +24,7 @@ table th{
 }
 
 table caption{
-  caption-side: bottom;
+  caption-side: top;
   text-align: left;
   font-style: italic;
   font-size: 14px;
