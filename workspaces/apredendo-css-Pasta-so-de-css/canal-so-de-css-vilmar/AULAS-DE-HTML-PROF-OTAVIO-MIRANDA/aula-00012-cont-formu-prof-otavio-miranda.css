@@ -2,3 +2,8 @@ body{
   background-color: #4682B4;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', seriftab
 }
+
+label{
+  cursor: pointer;
+  display: block;
+}
