@@ -18,3 +18,7 @@ div{
 span{
   background-color: chartreuse;
 }
+
+input{
+  display: block;
+}
