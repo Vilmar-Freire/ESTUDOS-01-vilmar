@@ -1,0 +1,24 @@
+body{
+  background-color: #ccfff5;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+mark{
+  background-color: #809fff;
+}
+
+div{
+  background-color: burlywood;
+}
+
+span{
+  background-color: chartreuse;
+}
+
+input{
+  display: block;
+}

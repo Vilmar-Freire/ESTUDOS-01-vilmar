@@ -24,7 +24,7 @@ table th{
 }
 
 table caption{
-  caption-side: bottom;
+  caption-side: top;
   text-align: left;
   font-style: italic;
   font-size: 14px;
@@ -33,4 +33,10 @@ table caption{
 
 tfoot td{
   background: #33ff33;
+  font-style: italic;
+}
+
+.responsive-table{
+      max-width: 100%;
+      overflow-x: auto;
 }
