@@ -15,6 +15,17 @@
   <title>Primeira Pagina</title>
 </head>
 <body>
+
+      <video controls muted loop width="500">
+            <source src="./ICONES/John Denver - Sunshine On My Shoulders (Tradução).mp4">
+      </video>
+
+      <audio controls loop muted>
+            <source src="./ICONES/Britney Spears - Stronger (Maynor Love Circuit Remix).mp3">
+      </audio>
+
+      <hr size="10px" color="#800040">
+
       <for action="index.php" method="post">
             <label for="usuario">Usuário</label>
             <input id="usuario" type="text" required>
@@ -32,17 +43,32 @@
             <input id="quant" type="number" min="0" max="100">
 
             <label for="sexo">Sexo:</label>
-            <input type="radio" name="masculino" id="masculino">
-            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label><br>
 
-            <label for="sexo">Sexo:</label>
-            <input type="radio" name="femenino" id="femenino">
-            <label for="femenino">Femenino</label>
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" name="Sexo" id="femenino">
+            <label for="femenino">Femenino</label><br>
+
+            <label for="uf">Estado:</label>
+            <select id="uf">
+                  <option value="go">Go</option>
+                  <option value="sp">SP</option>
+                  <option value="mg">MG</option>
+            </select>
+
+            <label for="aceita">Você aceita os termos:</label>
+            <input type="checkbox" id="aceita">
+
+            <label for="comentario">Comentários:</label><br>
+            <textarea id="comentario" rows="10" cols="50"></textarea><br>
 
             <input type="submit" value="cadastrar">
+            <input type="reset" value="resetar">
 
       </form>
 
+      <hr size="10px" color="#ff9966">
 
       <div>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta itaque rerum totam iste quo asperiores libero, praesentium neque, ducimus vel enim. Animi eveniet omnis quo laborum perspiciatis nisi accusantium ducimus, quia culpa quidem minus blanditiis, labore nulla? Voluptatibus, eum dignissimos quas nihil distinctio et, enim doloribus exercitationem repudiandae totam corrupti inventore voluptas tenetur. Minima, quas numquam? Dignissimos expedita a aut illo aliquam sequi culpa fugit necessitatibus, consectetur error laborum nam.
