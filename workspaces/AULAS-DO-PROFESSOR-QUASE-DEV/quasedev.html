@@ -15,14 +15,30 @@
   <title>Primeira Pagina</title>
 </head>
 <body>
-      <form action="index.php" method="post">
+      <for action="index.php" method="post">
             <label for="usuario">Usuário</label>
             <input id="usuario" type="text" required>
+
             <label for="Senha">Senha</label>
             <input id="Senha" type="password">
+
             <label for="email">E-mail</label>
             <input id="email" type="email">
-            
+
+            <label for="dtnasc">Data de Nascimento</label>
+            <input id="dtnasc" type="date">
+
+            <label for="quant">Quantidade</label>
+            <input id="quant" type="number" min="0" max="100">
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="masculino" id="masculino">
+            <label for="masculino">Masculino</label>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="femenino" id="femenino">
+            <label for="femenino">Femenino</label>
+
             <input type="submit" value="cadastrar">
 
       </form>
