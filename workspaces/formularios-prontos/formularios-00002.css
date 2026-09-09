@@ -1,0 +1,36 @@
+:root{
+    --color-white: #fff;
+    --color-red: #FF0000;
+    --color-dark1: #3385ff;
+    --color-dark2: #999900;
+    --color-purple1: #ff00ff;
+    --color-purple2: #4d004d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-dark1);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    background-color: var(--color-dark2);
+    padding: 2rem;
+    border-radius: 10px;
+    min-height: 30%;
+    overflow: auto;
+}
+
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
