@@ -10,49 +10,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./ASSETS/image/carro-isolado-azul_23-2151852914.avif" type="image/x-icon">
     <link rel="stylesheet" href="./ASSETS/0001-DEMITRI-SITE-QUATRO-HORAS.CSS">
     <title>Meu primeiro site</title>
 </head>
 <body>
-                        <!--Vamos aprender links-->
+  <form action="index.php" method="post">
+    <label for="nome">Nome</label>
+    <input id="nome" name="nome" type="text" placeholder="Digite aqui seu nome">
 
-      <h1>Página Principal</h1>
-      <p>Seja bem-vindo a página Principal</p>
+    <label for="email">E-mail</label>
+    <input id="email" name="email" type="email" placeholder="Exemplo@provedor.com">
 
-   <hr size="03" color="green;">
-   <!----Este link é chamado de link absoluto ou (URL ABSOLUTA) caminho completo do site.
-   para que serve target para ir para a nova aba se eu colocar essa tag target="_brank" eu 
-   estou indicando que ele vá para outra aba sem fechar a outra que estava.
-   Esses dois imper link são chamados de (LINK ABSOLUTO (OU url absoluta.)) -->
-      <a href="https://programacao.com.br" target="_blank">Ir para o site</a><br>
-      <a href=https://gogle.com">Ir para o gogle</a> <br>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" rows="5" cols="0" placeholder="Digite sua mensagem"></textarea>
 
-    <!-- Link relativo (URL RELATIVO) PORQUE PODE VARIAR DE POSIÇÕES DENTRO DO NOSSO PROJETO.
-     -->
-    <!--caminho relativo. O que é um caminho relativo é quando a gente quer que vai 
-      para outra página dentro do próprio projeto que eu estou dentro do próprio documento  
-      ele busca por exemplo o html se eu digitar esse caminho -->
-      <a href="form.html">Sobre nós</a><br>
-      <a href="../001-css.html">Voltar para a página principal.</a><br>
+    <input class="container" type="submit" value="Enviar">
+    <input class="reset" type="reset" value="resetar">
 
-      <a href="../form.html">Voltar para a principal</a>
-
-    <hr size="03" color="green;">
-
-    <!--Este é um caminho absoluto. O que é atributo alt? Épara descrever um texto alternativo para pessoa que tem
-    deficiência visual -->
-    <img src="https://s2-autoesporte.glbimg.com/mYgwlPa7vtIiUk6kROUxJUi2yyo=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/a/4/Ik8J1fQYirf6wYRvRJ8Q/2020-03-20-novo-tracker-1.jpg" width="200px" alt="carro azul
-    no asfalto com céu azul no fundo">
-
-    <img src="ASSETS/image/24399491-noite-carro-corrida-ilustracao-ai-generativo-gratis-foto.jpg" width="235" 
-    alt="colecao de carro">
-
-    <img src="ASSETS/image/images.jpeg" width="257" alt="Estou palticando">
-    <img src="ASSETS/image/carro-hatchback-azul-isolado-no-branco-vector_53876-67408.avif" width="175" alt="Estou memorizando já">
-    <img src="ASSETS/image/lindo-carro-image.png" width="196" alt="A cada minuto melhor">
-    <img src="ASSETS/image/carro-isolado-azul_23-2151852914.avif" width="232" alt="Estou feliz por esta aprendendo">
-    <img src="ASSETS/image/um-carro-azul-dirigindo-na-estrada_114579-4056.avif" width="" height="133" alt="Estou muito bem">
-
+  </form>
   </body>
   </html>
-                                                                                                   
