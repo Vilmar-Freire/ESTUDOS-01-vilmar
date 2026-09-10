@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+span{
+    display: block;
+    
+}
+
+.title{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
