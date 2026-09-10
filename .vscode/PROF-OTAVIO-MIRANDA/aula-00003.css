@@ -1,0 +1,20 @@
+body{
+    background-color: #ffff4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+h1{
+    background: #1a1a00;
+    width:26.3vh;
+}
+
+p{
+    background: #ff4dc4;
+    width: 70vh;
+}
+
+#cabecalho-dois{
+    background: #336600;
+}
