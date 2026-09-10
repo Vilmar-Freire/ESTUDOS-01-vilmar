@@ -1,1 +1,0 @@
-alert('SEJAM-BEM-VINDOS!')
