@@ -1,1 +1,0 @@
-alert('VILMAR-A-CADA-DIA-VOCÊ-ESTÁ-MELHOR!')
