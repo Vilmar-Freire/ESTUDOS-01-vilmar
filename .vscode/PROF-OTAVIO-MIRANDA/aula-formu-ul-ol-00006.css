@@ -1,0 +1,23 @@
+body{
+    background-color: #ffe6ff;
+}
+
+header{
+    background: #ff4d4d;
+    width: 13vh;
+}
+
+main{
+    background: #ffff33;
+    width: 13vh;
+}
+
+aside{
+    background: #800080;
+    width: 13vh;
+}
+
+footer{
+    background: #3333ff;
+    width: 13vh;
+}
