@@ -1,0 +1,19 @@
+body{
+    background-color: #7d7a7a;
+}
+
+.section-one{
+    width: 200px;
+    height: 150px;
+    background-color: #ff8080;
+    background-image: url("../img/cidade-jnegrets-2604857.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: 5px solid black;
+    padding: 15px;
+    color: #00ff00;
+}
+
+.section-two{
+    background: #4dffff;
+}
