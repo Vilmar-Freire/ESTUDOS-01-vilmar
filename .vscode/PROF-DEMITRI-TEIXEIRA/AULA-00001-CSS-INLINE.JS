@@ -1,0 +1,1 @@
+alert("AULA 00001 - CSS INLINE")   
