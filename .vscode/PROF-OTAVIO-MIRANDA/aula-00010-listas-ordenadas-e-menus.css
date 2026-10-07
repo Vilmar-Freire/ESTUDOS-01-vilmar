@@ -23,7 +23,9 @@ body{
 
 
 .vilmar-02{
-    display: inline;
+    display: block;
+    /*width: 20%;
+    float: left;*/
     text-align: center;
     padding: 2%;
     border: 4px solid blue;
