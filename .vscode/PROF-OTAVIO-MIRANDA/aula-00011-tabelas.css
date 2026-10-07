@@ -1,0 +1,25 @@
+h1{
+    max-width: 900px;
+    height: 40px;
+    color: #fff;
+    border: 5px solid rgb(233, 156, 13);
+    border-radius: 20px;
+    text-align: center;
+    background: #0f0683;
+    margin: 5px 70px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+h1:hover{
+    background: rgb(38, 203, 12);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 2px solid #777575cc;
+    padding: 5px;
+}
