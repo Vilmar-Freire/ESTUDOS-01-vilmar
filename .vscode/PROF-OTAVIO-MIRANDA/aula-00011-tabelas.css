@@ -1,5 +1,9 @@
+body{
+    font-family: sans-serif;
+}
+
 h1{
-    max-width: 900px;
+    width: 90%;
     height: 40px;
     color: #fff;
     border: 5px solid rgb(233, 156, 13);
@@ -17,9 +21,39 @@ h1:hover{
 
 table{
     border-collapse: collapse;
+    width: 110%;
 }
 
 table td, table th{
     border: 2px solid #777575cc;
     padding: 5px;
+    text-align: left;
+}
+
+table th{
+    background-color: aqua;
+    color: red;
+}
+
+table caption{
+    color: blue;
+    caption-side: top;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+
+
+}
+
+tfoot td{
+    font-style: italic;
+    font-size: 12px;
+    background: #e91e03;
+    color: blue;
+}
+
+.responsive-table{
+    max-width: 100%;
+    overflow-x: auto;
 }

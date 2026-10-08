@@ -18,7 +18,9 @@
     <h1>Aprendendo-tabelas</h1>
     <p>Tabelas-do-Vilmar-Freire</p>
 
+    <div class="responsive-table">
     <table>
+        <caption>Uma-descrição-para-tabela</caption>
         <thead>
             <tr>
                 <th>Título 1</th>
@@ -33,7 +35,28 @@
                 <td>Corpo 2</td>
                 <td>Corpo 3</td>
             </tr>
+            <!--posso usar rowspan pega as duas colunas de baixo coloca depois das aspas-->
+            <tr>
+                <td colspan="2">AQUI</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
         </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <td>TOTAL:</td>
+            </tr>
+            <tr>
+                <td>R$ 555</td>
+            </tr>
+        </tfoot>
     </table>
+    </div>
 </body>
 </html>
