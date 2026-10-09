@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 126, 126);
+    font-family: sans-serif;
+}
+
+h1{
+    width: 90%;
+    height: 40px;
+    color: aliceblue;
+    border: 5px solid rgb(13, 20, 233);
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(3, 75, 9);
+    margin: 5px 40px 20px 20px;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
