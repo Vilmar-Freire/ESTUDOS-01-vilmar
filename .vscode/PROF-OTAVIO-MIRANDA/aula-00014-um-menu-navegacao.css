@@ -20,7 +20,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: flex-end;  /*flex end vai ficar lainhado do lado direito*/
+    justify-content: flex-end;  /*flex end vai ficar alinhado do lado direito*/
 }
 
 nav ul{
