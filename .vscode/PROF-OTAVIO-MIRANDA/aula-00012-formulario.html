@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-U-A-compatible" content="IE=EDGE">
+    <meta name="robots" content="index, fallow">
+    <meta name="Language" content="pt-BR">
+    <meta name="keywords" content="Programacao, html, css, JavaScript">
+    <meta name="author" content="Vilmar-Freire">
+    <meta name="Description" content="Aulas de formularios">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ICONES copy/08-cachorro1256450.png" type="image/x-icon">
+    <link rel="stylesheet" href="./aula-00012-formulario.css" type="text/css">
+    <script src="./aula-00012-formulario.js" defer></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Estudando-formulário-aula-00012</h1>
+
+        <form action="#" method="get" target="_blank" autocomplete="off">
+
+            <p>O meu formulário</p>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite-seu-nome">
+            </p>
+
+            <p>
+                <label for="dev1">Sou um dev de nível 1</label>
+                <input type="checkbox" id="dev1" name="dev1" value="sim">
+            </p>
+
+             <p>
+                <label for="dev2">Sou um dev de nível 2</label>
+                <input type="checkbox" id="dev2" name="dev2" value="sim">
+            </p>
+
+             <p>
+                <label for="dev3">Sou um dev de nível 3</label>
+                <input type="checkbox" id="dev3" name="dev3" value="sim">
+            </p>
+
+            <p>
+                Gênero: <br>
+                <label for="femenino">femenino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+            </p>
+
+             <p>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+            </p>
+
+             <p>
+                <label for="outra_outro">Outra ou outro</label>
+                <input type="radio" id="outra_outro" name="genero" value="outra_outro">
+            </p><br>
+
+             <p>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" value="2026-10-11">
+            </p>
+
+            <p>
+                <label for="datetime">Date:</label>
+                <input type="datetime-local" id="datetime" name="datetime" value="2026-10-11T01:31">
+            </p>
+
+            <p>
+                <label for="time">Date:</label>
+                <input type="time" id="time" name="time" value="01:38:01">
+            </p>
+
+             <p>
+                <label for="cor">Cor preferida:</label>
+                <input type="color" id="cor" name="cor" value="#00ccff">
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="ex.: email@email.com">
+            </p>
+
+            <p>
+                <label for="file">Sua foto:</label>
+                <input type="file" id="file" name="fale" accept=".png, .svg, image/*" multiple>
+            </p>
+
+            <p>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number" min="10" max="50" step="5">
+            </p>
+
+            <p>
+                <label for="password">Digite sua senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha">
+            </p>
+
+             <p>
+                <label for="range">range:</label>
+                <input type="range" id="range" name="range" min="0" max="10" step="2">
+
+               <label for="tempB">Choose a comfortable temperature:</label><br />
+               <input type="range" id="tempB" name="temp" list="values" />
+
+<datalist id="values">
+  <option value="0" label="very cold!"></option>
+  <option value="25" label="cool"></option>
+  <option value="50" label="medium"></option>
+  <option value="75" label="getting warm!"></option>
+  <option value="100" label="hot!"></option>
+</datalist>
+            </p>
+
+             <p>
+                <label for="url">Sua url:</label>
+                <input type="url" id="url" name="url" placeholder="url">
+            </p>
+
+            <p>
+                <label for="search">Sua url:</label>
+                <input type="search" id="search" name="search" placeholder="search">
+            </p>
+
+            <p>
+                <label for="select">Selecione alguma opção:</label>
+                <select id="select" name="select">
+                    <optgroup label="Teste grupo 1">
+                    <option value="qualquer 1" label="Label 1"></option>
+                    <option value="qualquer 1" label="Label 2" disabled></option>
+                    <option value="qualquer 1" label="Label 3" selected></option>
+                    <option value="qualquer 1" label="Label 4"></option>
+                    </optgroup>
+
+                    <optgroup label="Teste grupo 2">
+                    <option value="qualquer 1" label="Label 1"></option>
+                    <option value="qualquer 1" label="Label 2"></option>
+                    <option value="qualquer 1" label="Label 3" selected></option>
+                    <option value="qualquer 1" label="Label 4"></option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label for="textarea">textarea:</label>
+                <textarea name="textarea" id="textarea" rows="3" cols="9">
+                    Mas se a gente colocar
+                </textarea>
+            </p>
+
+
+
+
+                <button type="reset">Reset</button>
+                 <button type="submit">Enviar</button>
+            </p>
+        </form>
+</body>
+</html>
+
+<!--Este html form ele é um bloco também de conteúdo que vai receber outros conteudos ele é um display: block ou seja ele oculpa a largura toda da tela (Eu posso usar também o atributo value="Vilmar-Freire") depois do placeholder posso também usar disbled ai o usuário não consegue interagir com esse imput o readonly o usuário pode interagir mais não pode digitar o imput também-->
