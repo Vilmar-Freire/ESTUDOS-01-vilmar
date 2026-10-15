@@ -15,9 +15,14 @@ h1{
     text-transform: uppercase;
 }
 
+/*variações de border dotted, dashed, solid, double, groove, ridge inset, outset, none, hidden*/
 h2{
-    color: green;
-    border: 1px solid black;
+    color: rgb(235, 187, 32);
+    border-top: 5px solid  rgb(19, 58, 3); 
+    border-left: 5px solid  rgb(255, 0, 0); 
+    border-right: 5px solid  rgba(10, 2, 78, 0.664); 
+    border-bottom: 5px solid  rgb(0, 255, 255);
+    padding: 10px 10px 10px 10px;
     border-radius: 30px;
     text-align: center;
 }
