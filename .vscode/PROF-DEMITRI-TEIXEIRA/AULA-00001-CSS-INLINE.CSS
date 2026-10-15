@@ -15,10 +15,26 @@ h1{
     text-transform: uppercase;
 }
 
+h2{
+    color: green;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
 p{
     color: blue;
     font-family: Arial, sans-serif;
     text-align: left;
     line-height: 1.5;
     font-size: 20px;
+}
+
+.exemplo-back{
+   height: 900px;
+   background-color: gray;
+   background-image:url("./DM-IMAGENS/um\ homem\ no\ pasto.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
