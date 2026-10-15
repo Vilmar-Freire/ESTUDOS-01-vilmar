@@ -1,6 +1,4 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Exa:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 *{
@@ -10,25 +8,25 @@
 
 body{
     min-height: 100vh;
-    background-image: url("./img/cidade-jnegrets-2604857.jpg");
+    background-image: url("./img/geleira\ clara.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Poppins;
+    font-family: "Roboto";
     color: #fff;
 }
 
 nav{
     display: flex;
-    justify-content: flex-end;  /*flex end vai ficar alinhado do lado direito*/
+    justify-content: flex-end;
 }
 
 nav ul{
     width: 100%;
-    list-style: none; /*list-style none remove todas as bolinhas*/
-    display: flex; /*Mantem alinha no horizonta*/
-    justify-content: flex-end; /*para ficar alinhado a direita*/
-    align-items: center; /*centralizado verticalmente*/
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 nav li{
@@ -38,29 +36,12 @@ nav li{
 nav a{
     height: 100%;
     padding: 0 30px;
-    text-decoration: none; /*Sem anderlaine em baixo*/
-    display: flex; /*Para ficar alinhado na horizontal*/
-    align-items: center; /*Para ficar alinhado verticamente no centro também*/
-    color: #fff;
-}
-
-.logotipo{
-    font-weight: bold;
-    font-size: 1.6rem;
-}
-
-.sidebar{        /*Para celular*/
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 280px;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1); /*Efeito de sobra*/
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    backdrop-filter: blur(10px);
+    align-items: center;
+    color: #ee0f0f;
+}
+
+.icon{
+    fill: aqua;
 }
