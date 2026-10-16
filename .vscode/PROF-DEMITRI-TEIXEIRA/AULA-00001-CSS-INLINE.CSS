@@ -25,21 +25,102 @@ h2{
     padding: 10px 10px 10px 10px;
     border-radius: 30px;
     text-align: center;
+    background-color: gray;
+    /*margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;*/
+    margin:30px 70px 150px 20px;
+    /*padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right: 70px;*/
+    /*padding: 50px 70px 20px 10px;*/
 }
 
 p{
     color: blue;
+    /*margin-bottom: 60px;*/
     font-family: Arial, sans-serif;
     text-align: left;
     line-height: 1.5;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .exemplo-back{
-   height: 900px;
+   height: 100px;
    background-color: gray;
    background-image:url("./DM-IMAGENS/um\ homem\ no\ pasto.jpg");
+   margin-bottom: 100px;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
+/*variações de border dotted, dashed, solid, double, groove, ridge inset, outset, none, hidden*/
+ /*color: rgb(235, 187, 32);=> cor do texto do elemento, definido em rgb(235, 187, 32).
+
+    border-top: 5px solid  rgb(19, 58, 3); =>  é a borda superior do elemento, com 5 pixels de largura, estilo sólido e cor rgb(19, 58, 3).
+
+    border-left: 5px solid  rgb(255, 0, 0); => corresponde à borda esquerda do elemento, com 5 pixels de largura, estilo sólido e cor rgb(255, 0, 0).
+
+    border-right: 5px solid  rgba(10, 2, 78, 0.664);  =>  corresponde à borda direita do elemento, com 5 pixels de largura, estilo sólido e cor rgba(10, 2, 78, 0.664).
+
+    border-bottom: 5px solid  rgb(0, 255, 255);  => corresponde à borda inferior do elemento, com 5 pixels de largura, estilo sólido e cor rgb(0, 255, 255).
+
+    padding: 10px 10px 10px 10px;  =>  define o preenchimento interno do elemento, com 10 pixels de espaço em todos os lados (superior, direito, inferior e esquerdo).
+
+    border-radius: 30px;    => define o raio de arredondamento dos cantos do elemento, resultando em cantos arredondados com um raio de 30 pixels.
+    text-align: center;  =>    define o alinhamento do texto dentro do elemento, centralizando-o horizontalmente.
+
+    height: 900px;  => define a altura do elemento como 900 pixels.
+
+   background-color: gray;  => define a cor de fundo do elemento como cinza.
+
+   background-image:url("./DM-IMAGENS/um\ homem\ no\ pasto.jpg");  => define a imagem de fundo do elemento, especificando o caminho para a imagem "um homem no pasto.jpg" localizada na pasta "DM-IMAGENS".
+
+   background-size: cover;  => define o tamanho da imagem de fundo para cobrir completamente o elemento, ajustando a imagem proporcionalmente para preencher toda a área disponível.
+
+   background-position: center;  => define a posição da imagem de fundo, centralizando-a dentro do elemento.
+
+   background-repeat: no-repeat;height: 900px;   => define a altura do elemento como 900 pixels.
+    background-color: gray; => define a cor de fundo do elemento como cinza.
+
+   background-position: center;  =>  define a posição da imagem de fundo, centralizando-a dentro do elemento.
+
+   background-repeat: no-repeat;  =>    define que a imagem de fundo não deve se repetir, ou seja, será exibida apenas uma vez no elemento.
+
+   margin-top: 50px;margin-top: 50px;  => define a margem superior do elemento como 50 pixels, criando um espaço de 50 pixels entre o elemento e o elemento acima dele.
+
+    margin-bottom: 150px;  => define a margem inferior do elemento como 150 pixels, criando um espaço de 150 pixels entre o elemento e o elemento abaixo dele.  margin-bottom: 150px; 
+    
+margin-left: 50px;  => define a margem esquerda do elemento como 50 pixels, criando um espaço de 50 pixels entre o elemento e o elemento à esquerda dele.margin-left: 50px;
+
+margin-right: 50px;  => define a margem direita do elemento como 50 pixels, criando um espaço de 50 pixels entre o elemento e o elemento à direita dele.  margin-right: 50px;margin-right: 50px;
+
+margin-bottom: 40px;  => define a margem inferior do elemento como 40 pixels, criando um espaço de 40 pixels entre o elemento e o elemento abaixo dele.
+
+ margin-left: 10px;  => define a margem esquerda do elemento como 10 pixels, criando um espaço de 10 pixels entre o elemento e o elemento à esquerda dele.
+
+ padding-top: 50px;  => define o preenchimento interno superior do elemento como 50 pixels, criando um espaço de 50 pixels entre o conteúdo do elemento e a borda superior do elemento.
+
+  padding-bottom: 20px;  => define o preenchimento interno inferior do elemento como 20 pixels, criando um espaço de 20 pixels entre o conteúdo do elemento e a borda inferior do elemento.
+
+  padding-left:10px;  => define o preenchimento interno esquerdo do elemento como 10 pixels, criando um espaço de 10 pixels entre o conteúdo do elemento e a borda esquerda do elemento.
+
+    padding-right: 70px;  => define o preenchimento interno direito do elemento como 70 pixels, criando um espaço de 70 pixels entre o conteúdo do elemento e a borda direita do elemento.  padding-right: 70px;
+
+    margin-bottom: 100px; => define a margem inferior do elemento como 100 pixels, criando um espaço de 100 pixels entre o elemento e o elemento abaixo dele.
+
+    
+    */ 
+
+
+
