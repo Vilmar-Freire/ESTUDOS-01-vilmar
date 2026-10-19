@@ -6,4 +6,6 @@
 body{
     min-width: 100vh;
     background-color: #a3c2c2;
+    background-size: cover;
+    
 }
