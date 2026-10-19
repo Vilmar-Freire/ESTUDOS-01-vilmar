@@ -62,8 +62,25 @@ p{
     margin-left: 33%;
     background: green;
     color:white;
+    padding: 30px;
+    margin-bottom: 100px;
 }
 
+.botao{
+    margin-left: 33%;
+    background: green;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background: rgb(13, 0, 190);
+}
 
 
 
