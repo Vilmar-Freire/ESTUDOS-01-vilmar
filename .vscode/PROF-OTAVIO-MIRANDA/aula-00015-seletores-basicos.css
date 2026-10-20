@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend+Exa:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +8,73 @@
 
 body{
     min-width: 100vh;
-    background-color: #a3c2c2;
+    background-color: #ce76c2;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Roboto;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 60px;
+}
+
+nav li:first-child{
+    margin-right: auto;        /*Separa o dev dando espaço bem largo*/
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #1128f5;
     
 }
+
+
+nav a:hover{
+    color: #ee1f04;
+}
+
+logotipo{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.content{
+    max-width: 900px;
+    height: 50px;
+    color: red;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(114, 66, 4);
+    margin: 30px 20px 30px 20px;
+    padding: 20px 50px 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 5px solid #4dffff;
+}
+
+/*p{
+    color: #ff3333;
+}*/
+
+body div section p {
+    color: #ff3333;
+}
+
