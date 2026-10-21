@@ -8,7 +8,7 @@
 
 body{
     min-width: 100vh;
-    background-color: #ce76c2;
+    background-color: #504e50;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,11 +70,39 @@ logotipo{
     border: 5px solid #4dffff;
 }
 
-/*p{
-    color: #ff3333;
-}*/
-
-body div section p {
-    color: #ff3333;
+p, h2{
+    color: #fc00e7;
 }
+
+body div section p, 
+body div section p h2 {
+    color: #c05d00;
+}
+
+.color-red {
+    color: #999999;
+}
+
+.main-content h3{
+    font-style: italic;
+}
+
+div.main-content h3.heading {
+    font-style: italic;
+    color: green;
+}
+
+div{
+    color: initial;
+}
+
+.pai{
+    color: #ff3355;
+}
+
+.pai .filha{
+    color:#ee1f04;
+}
+
+
 
