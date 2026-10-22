@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #009999;
+}
+
+.pai h1+p {     /*chama adjacent sibling combinator - css: cascading*/
+    color: red;
+}
+
+.pai p+h1 {     /*chama adjacent sibling combinator - css: invertido*/
+    color: rgb(255, 238, 0);
+}

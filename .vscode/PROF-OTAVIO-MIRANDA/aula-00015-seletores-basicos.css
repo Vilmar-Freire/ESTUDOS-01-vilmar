@@ -94,9 +94,10 @@ div.main-content h3.heading {
 
 div{
     color: initial;
+    margin-left: 20px;
 }
 
-.pai{
+.pai .filha{              
     color: #ff3355;
 }
 
