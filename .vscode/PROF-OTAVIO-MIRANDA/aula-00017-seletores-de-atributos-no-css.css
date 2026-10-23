@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pai .um + .dois {
+    color: brown;
+}
+
+[meu-atributo*="ou out"] {
+    color: brown;
+}
+
+[checked] {
+    color: brown;
+    width: 50px;
+    height: 50px;
+}
+
+/*podemos selecionar pelo nome do atributo, usando assim[meu-atributo="valor"]{ }se eu quero trabalhar com o atributo e também o seu valor podemos fazer aquilo que fisemos anteriormente isso funciona tanto para os seus atributos quanto para o atributo padrão do html. Só que aqui dentro agora dentro do valor  */
