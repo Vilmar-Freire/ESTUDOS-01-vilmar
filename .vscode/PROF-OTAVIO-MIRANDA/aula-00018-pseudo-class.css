@@ -1,12 +1,12 @@
-body{
+body {
     background-color: #800080;
 }
 
-.heading{
+.heading {
     transition: all 1s ease-in-out;
 }
 
-.heading:hover{
+.heading:hover {
     background: #3333cc;
 }
 
@@ -14,16 +14,57 @@ a {
     color: darkorange;
 }
 
-a:link{
+a:link {
     color: blue;
 }
 
-a:visited{
+a:visited {
     color: aliceblue;
 }
 
-a:hover{
+a:hover {
     background: #006666;
     color: #339933;
     text-decoration: none;
 }
+
+a:active {
+    background: darkslategray;  
+}
+
+/*input:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid black;
+}
+
+input:enabled {
+    background-color: rebeccapurple;
+    cursor: not-allowed;
+}*/
+
+input:checked + p {
+    background: red;
+    /*width: 50px;
+    height: 50px;*/
+}
+
+/*.pai .lista li {  (seleciona todas as li)
+    background: red;
+}*/
+
+.pai .lista li:first-child {  /*primeiro filho first-child*/
+    background: red;
+}
+
+.pai .lista li:last-child {  /*ultimo filho last-child*/
+    background: red;
+}
+
+input:required {
+    background: chocolate;
+}
+
+
+/*Essa classe active indica que o elemento foi clicado e está ativo no momento.
+box-shadow coloca sobra. outline: none tira a cor da borda. Se eu quiser selecionar só o primeiro filho posso também selecionar usando first-child*/
