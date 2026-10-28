@@ -3,84 +3,33 @@
     margin: 0;
 }
 
-h1{
-    width: 90%;
-    height: 50%;
-    background-color: rgb(14, 14, 1);
-    border-radius: 30px;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
+body{
+    background: #ccc;
+}
+
+.vermelho{
     color: red;
-    text-align: center;
-    text-transform: uppercase;
 }
 
-/*variações de border dotted, dashed, solid, double, groove, ridge inset, outset, none, hidden*/
-h2{
-    color: rgb(235, 187, 32);
-    border-top: 5px solid  rgb(19, 58, 3); 
-    border-left: 5px solid  rgb(255, 0, 0); 
-    border-right: 5px solid  rgba(10, 2, 78, 0.664); 
-    border-bottom: 5px solid  rgb(0, 255, 255);
-    padding: 10px 10px 10px 10px;
-    border-radius: 30px;
+.center{
     text-align: center;
-    background-color: gray;
-    /*margin-top: 50px;
-    margin-bottom: 150px;
-    margin-left: 50px;
-    margin-right: 50px;*/
-    margin:30px 70px 150px 20px;
-    /*padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left:10px;
-    padding-right: 70px;*/
-    /*padding: 50px 70px 20px 10px;*/
 }
 
-p{
-    color: blue;
-    /*margin-bottom: 60px;*/
-    font-family: Arial, sans-serif;
-    text-align: left;
-    line-height: 1.5;
+.fonte-30{
+    font-size: 30px;
+}
+
+#teste{
+    color:blue;
+    background-color: yellow;
+}
+
+h1, p{
+    color: rgb(0, 20, 204);
     font-size: 20px;
-    margin-left: 20px;
-}
+    text-align: center;
+   }
 
-.exemplo-back{
-   height: 100px;
-   background-color: gray;
-   background-image:url("./DM-IMAGENS/um\ homem\ no\ pasto.jpg");
-   margin-bottom: 100px;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-
-.botao{
-    margin-left: 33%;
-    background: green;
-    color:white;
-    padding: 30px;
-    margin-bottom: 100px;
-}
-
-.botao{
-    margin-left: 33%;
-    background: green;
-    color:white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.botao:hover{
-    background: rgb(13, 0, 190);
-}
 
 
 
