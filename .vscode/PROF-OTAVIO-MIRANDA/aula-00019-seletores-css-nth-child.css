@@ -2,7 +2,7 @@ body {
     background-color: #669999;
 }
 
-.heading {
+/*.heading {
     transition: all 1s ease-in-out;
 }
 
@@ -32,7 +32,7 @@ a:active {
     background: darkslategray;  
 }
 
-/*input:focus {
+    input:focus {
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     outline: none;
     border: 1px solid black;
@@ -41,27 +41,27 @@ a:active {
 input:enabled {
     background-color: rebeccapurple;
     cursor: not-allowed;
-}*/
+}
 
-/*input:checked + p {
+input:checked + p {
     background: red;
-    /*width: 50px;
+    width: 50px;
     height: 50px;
-}*/
+}
 
 input:not(:checked) + p {
     background: yellow;
 }
 
-/*.pai .lista li {  (seleciona todas as li)
-    background: red;
-}*/
-
-.pai .lista li:first-child {  /*primeiro filho first-child*/
+.pai .lista li {          (seleciona todas as li)
     background: red;
 }
 
-.pai .lista li:last-child {  /*ultimo filho last-child*/
+.pai .lista li:first-child {  primeiro filho first-child
+    background: red;
+}
+
+.pai .lista li:last-child {  ultimo filho last-child
     background: red;
 }
 
@@ -71,7 +71,23 @@ input:required {
 
 p:not(.meio) {
     color: blue;
+}*/
+
+ul li:nth-child(odd) {  
+    background-color: rebeccapurple;
+}
+
+ul li:nth-child(even) {
+    background-color: rgb(78, 60, 241);
+}
+
+ul li:nth-child(3n) {
+    background-color: darkolivegreen;
+}
+
+ul li:nth-child(3n+10) {
+    background-color: darkred;
 }
 
 
-/*Esse é um seletor de negação p:not(.meio){color: #blue;}. Agora já é outro quando eu estiver falando input:not(:checked) + p {background: #yellow} não estiver checado tiver um p logo depois dele esse p vai ter o fundo amarelo.*/
+/*Esse é um seletor de negação p:not(.meio){color: #blue;}. Agora já é outro quando eu estiver falando input:not(:checked) + p {background: #yellow} não estiver checado tiver um p logo depois dele esse p vai ter o fundo amarelo. even siguinifica par. odd siguinifica impar*/
