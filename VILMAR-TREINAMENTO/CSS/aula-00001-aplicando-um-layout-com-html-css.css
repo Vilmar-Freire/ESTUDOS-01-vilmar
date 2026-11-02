@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
@@ -6,8 +11,11 @@ body{
 #cabecalho {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 150px;
-    background-color: #5266eb;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(130, 87, 229);
 }
 
 #cabecalho img {
@@ -19,16 +27,49 @@ body{
 
 #menu a{
     text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#conteudo{
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#menu a:hover{
+    color: white;
+    background-color: black;
+}
+
+#titulo{
+    text-transform: uppercase;
+    color: rgba(130, 87, 229);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#produto{
+    text-align: center;
 }
 
 #rodape {
+    width: 90%;
+    margin: 0 auto;
     height: 100px;
-    background-color: #5266eb;
+    background-color: rgba(130, 87, 229);
 }
 
 #rodape img{
     width: 70px;
     height: 70px;
-    margin-left: 3px;
-    margin-top: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 5px;
 }
+
+
+/*font-weight: 700; ou bold coloca em negrito.*/
