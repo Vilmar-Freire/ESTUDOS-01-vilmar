@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 150px;
-    width: 63%;
+    width: 62.9%;
     margin: 0 auto;
     background-color: chocolate;
 }
@@ -35,7 +35,9 @@ body{
 }
 
 #conteudo{
-    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 675px;
 }
 
 #menu a:hover{
@@ -43,8 +45,20 @@ body{
     background-color: blue;
 }
 
+#titulo{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 260px;
+    margin-top: 10px;
+    color: brown;
+}
+
+#produto{
+    text-align: center;
+}
+
 #rodape{
-    width: 63%;
+    width: 62.9%;
     margin: 0 auto;
     height: 100px;
     background-color: chocolate;
