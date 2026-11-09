@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lexend+Exa:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #30916e;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.wraper {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: #ff9900;
+}
+
+.logo h2 {
+    color: #000;
+    font-family: "Fredoka", sans-serif;
+}
+
+.title {
+    margin-left: 40px;
+}
+
+.title h2 {
+    font-family: "Fredoka", sans-serif;
+    color: #bf7340;
+}
+
+.navegation {
+    display: flex;
+}
+
+.navegation li {
+    margin: 40px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navegation li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    color: #ff9900;
+}
+
+.navegation li a:hover {
+    background-color: #2952ff;
+    color: #000;
+}
