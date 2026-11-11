@@ -70,3 +70,14 @@ header {
     background-color: #2952ff;
     color: #000;
 }
+
+
+#texto {
+    font-family: sans-serif;
+    color: #e70707;
+    font-size: 18px;
+}
+
+p {
+    font-size: inherit;       /*initial não herda. Se eu quiser que herda usa-se inherit*/
+}
