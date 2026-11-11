@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: chocolate;
+}
+
+.wrape {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.logo h2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    margin-left: 40px;
+}
+
+.title h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.navegation {
+    display: flex;
+}
+
+.navegation li {
+    margin: 40px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navegation li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.navegation li a:hover {
+    background-color: brown;
+    color: gold;
+}
+
+
+
+/*html,body {
+    height: 100%;
+}*/
+
+.texto {
+    /*display: block;*/
+    box-sizing: border-box;
+    background: rgb(48, 138, 223);
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+    min-width: 0;
+    min-height: 100px;
+    overflow: auto;
+    margin: 0 auto 50px auto;
+    /*padding: 50px;*/
+    /*padding-left: 50px;*/
+    /*padding: 10px 5px 15px 1px*/ ;
+    padding: 10px 5px;
+    /*border: 5px solid black;*/
+    /*border: 5px double black;*/
+    /*border: 5px dotted black;*/
+    border-width: 15px;
+    /*border-style: groove;*/
+    border-color: lightcoral;
+    border-style: solid;
+}
+
+/*
+E usa a tag => box-sizing: content-box;
+Para margin continuar para fora usa padding-box
+Para margin continuar para dentro usa content-box
+Mais o mais utilizado é o border-box; porque não cria tanta confusão.
+*/
