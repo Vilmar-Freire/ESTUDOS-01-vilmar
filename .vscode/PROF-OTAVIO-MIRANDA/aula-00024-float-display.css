@@ -64,3 +64,47 @@ header {
     background-color: #336600;
     color: #91003d;
 }
+
+
+
+
+.grid {
+    /*box-sizing: border-box;*/
+    padding: 15px;
+}
+
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col {
+    /*box-sizing: border-box;*/
+    display: block;
+    /*display: inline-block;*/
+    width: 33.33%;
+    height: 300px;
+    /*background: red;*/
+    /*margin: 30px;*/
+    float: left;
+    /*float: right;*/
+    padding: 15px;
+}
+
+.grid .col-content {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+
+p {
+    /*clear: left;*/ /*esquerda*/
+    /*clear: right;*/ /*direita*/
+    /*clear: both;*/  /*limpa sempre os dois lados*/
+}
+
+/*
+Quando se fala de grid estamos falando de vários quadradinhos na tela aqui alinhado de uma maneira que pareça uma tela.
+*/
