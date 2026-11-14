@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lexend+Exa:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lexend Exa", sans-serif;;
 }
+
+
 
 header {
     display: flex;
@@ -64,4 +69,96 @@ header {
 .navegation li a:hover {
     background-color: #ff7a00;
     color: #00ffff;
+}
+
+
+body {
+    background-color: #0b0c1e;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+.nave {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 25px;
+}
+
+nav .logos {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding:  10px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .img {
+    width: 50%;
+    padding: 50px;
+}
+
+main .img img {
+    width: 300%;
+}
+
+main .contente {
+    width: 50%;
+    color: white;
+}
+
+main .contente h1 {
+    font-size: 3rem;
+}
+
+main .contente p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+main .contente .grupo-botoes button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor:pointer;
+    border: none;
+    color: white;
+}
+
+main .contente .grupo-botoes button:first-child {
+    box-shadow: 0 0 50px #ff3e6ea8;
+    background: linear-gradient(#ff3e6e,#be2d6e);
+}
+
+main .contente .grupo-botoes button:last-child {
+    box-shadow: 0 0 30px #6edbf97e;
+    background: linear-gradient(#6edcf9, #1c60a0);
 }
