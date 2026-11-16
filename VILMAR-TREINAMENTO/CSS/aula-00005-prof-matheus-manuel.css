@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0b0c1e;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+nav .logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 2px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .img {
+    width: 50%;
+    padding: 40px;
+}
+
+main .img img{
+    width: 100%;
+}
+
+main .content{
+    width: 50%;
+    color: white;
+}
+
+main .content h1 {
+    font-size: 3rem;
+}
+
+main .content p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+main .content .grupo-botoes button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+main .content .grupo-botoes button:first-child {
+    box-shadow: 0 0 20px #ff3e6ea8;
+    background: linear-gradient(#ff3e6e,#ff3e6e);
+}
+
+main .content .grupo-botoes button:last-child {
+    box-shadow: 0 0 20px #6edbf97e;
+    background: linear-gradient(#6edcf9,#1c0a60);
+}
+
+.clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clientes div {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.clientes div img {
+    width: 100%;
+}
+
+/*responsivo*/
+
+@media (max-width:850px) {
+    main .img {
+        display: none;
+    }
+    main .content {
+        width: 100%;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .clientes {
+        margin-top: 70px;
+    }
+    .clientes div {
+        width: 50%;
+    }
+    .clientes div img {
+        width: 70%;
+    }
+}
+
+@media (max-wisth:430px) {
+    main .content h1 {
+        font-size: 2.5rem;
+    }
+    main .content p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:330px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+    main .content h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.clientes div img {
+    width: 100%;
+}
