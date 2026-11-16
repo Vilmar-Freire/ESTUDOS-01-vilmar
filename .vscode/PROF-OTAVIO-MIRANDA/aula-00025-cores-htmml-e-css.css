@@ -162,3 +162,63 @@ main .contente .grupo-botoes button:last-child {
     box-shadow: 0 0 30px #6edbf97e;
     background: linear-gradient(#6edcf9, #1c60a0);
 }
+
+.clientes {
+    margin-top: 70px;
+}
+
+.clientes div{
+    width: 50%;
+}
+
+.clientes {
+    width: 70%;
+}
+
+.clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clientes div {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+.clientes div img {
+    width: 100%;
+}
+
+/*Responsivo*/
+
+@media(max-width:850px) {
+    main.img{
+        display: none;
+    }
+    main .contente{
+        width: 100%;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .clientes{
+        margin-top: 70px;
+    }
+    .clientes div {
+        width: 50%;
+    }
+    .clientes div img {
+        width: 70%;
+    }
+}
+
+@media (max-width:430px){
+    main .contente h1 {
+        font-size: 2.5rem;
+    }
+    main.container{
+        font-size: 0.8rem;
+    }
+}
