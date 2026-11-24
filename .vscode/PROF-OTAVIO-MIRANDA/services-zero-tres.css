@@ -70,5 +70,55 @@ nav li a:hover {
     color: white;
     font-size: 58px;
     font-weight: 600;
-    
 }
+
+.texto .botoes {
+    margin-top: 30px;
+}
+
+.texto .botoes button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.texto .botoes button.n-orverlay {
+    color: #0703fd;
+     font-weight: 700;
+    background: none;
+    border: 3px solid #ff9933;
+}
+
+.texto .botoes button.n-orverlay:hover {
+    color:  #2e2ed1;
+    background-color: #ff9933;
+}
+
+.texto .botoes button.orverlay{
+    background:  #d98252;
+    color:  #0000ff;
+    font-weight: 700;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
